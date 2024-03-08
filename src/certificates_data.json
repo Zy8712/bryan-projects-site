@@ -1,0 +1,362 @@
+[
+    {
+        "name" : "Teamwork Foundations",
+        "date" : "August 28th, 2023",
+        "source" : "LinkedIn Learning",
+        "issuer" : "LinkedIn",
+        "author" : "Chris Croft",
+        "preview_image" : "/certificate-images/LinkedInLearning_TeamworkFoundations.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/teamwork-foundations-2020/teamwork-is-the-core",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/dae31774ab3e2305c80e86581619a2a2017afe187724d6686aad5bf6ef80b4c7",
+            "pmi_link" : "",
+            "nasba_link" : "https://www.linkedin.com/learning/certificates/0092d8f8ba18900ad9a4bf60225187583ff8a13a613ce20431b867ccf58fcc75"
+        }
+    },
+    {
+        "name" : "Programming Foundations: Fundamentals",
+        "date" : "August 28th, 2023",
+        "source" : "LinkedIn Learning",
+        "issuer" : "LinkedIn",
+        "author" : "Annyce Davis",
+        "preview_image" : "/certificate-images/LinkedInLearning_ProgrammingFoundationsFundamentals.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/programming-foundations-fundamentals-3/following-along-with-the-course",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/1855ad0e55c3adad307192c6a5eb8eea259690a7ae95bd1e07d5fcb7e92c05d1",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
+    },
+    {
+        "name" : "Programming Foundations: Beyond the Fundamentals",
+        "date" : "August 29th, 2023",
+        "source" : "LinkedIn Learning",
+        "issuer" : "LinkedIn",
+        "author" : "Sasha Vodnik",
+        "preview_image" : "/certificate-images/LinkedInLearning_ProgrammingFoundationsBeyondtheFundamentals.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/programming-foundations-beyond-the-fundamentals/continuing-your-programming-quest-22193990",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/912ac1094432c83aa3f53f20fbaade7bf46d2d3aae046641bc600c5cf018f8e9",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
+    },
+    {
+        "name" : "Introduction to Career Skills in Software Development",
+        "date" : "August 29th, 2023",
+        "source" : "LinkedIn Learning",
+        "issuer" : "LinkedIn",
+        "author" : "Annyce Davis",
+        "preview_image" : "/certificate-images/LinkedInLearning_IntroductiontoCareerSkillsinSoftwareDevelopment.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/introduction-to-career-skills-in-software-development/next-steps",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/a6caa470bd3cfea66fe0d2ba75046041881ca8cfa8fa5bae9b100a08b72097f3",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
+    },
+    {
+        "name" : "Responsive Web Design",
+        "date" : "October 2nd, 2023",
+        "source" : "freeCodeCamp",
+        "issuer" : "freeCodeCamp",
+        "author" : "Quincy Larson",
+        "preview_image" : "/certificate-images/freeCodeCamp_ResponsiveWebDesign.PNG",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+            "certificate_link" : "https://www.freecodecamp.org/certification/bryan-li712/responsive-web-design",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
+    },
+    {
+        "name" : "Getting Started with Microsoft 365",
+        "date" : "October 10th, 2023",
+        "source" : "LinkedIn Learning",
+        "issuer" : "Microsoft",
+        "author" : "Courtney Hodge and Microsoft",
+        "preview_image" : "/certificate-images/LinkedInLearning_GettingStartedwithMicrosoft365.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/getting-started-with-microsoft-365/intro-to-digital-productivity",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/6559d1f0bec2b8cc3004451e4b6febe58df15dacd9fa0794f16d38e380345eb3",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
+    },
+    {
+        "name" : "Optimizing Your Work with Microsoft 365",
+        "date" : "October 10th, 2023",
+        "source" : "LinkedIn Learning",
+        "issuer" : "Microsoft",
+        "author" : "Zakiya Mackey and Microsoft",
+        "preview_image" : "/certificate-images/LinkedInLearning_OptimizingYourWorkwithMicrosoft365.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/optimizing-your-work-with-microsoft-365/leveling-up-your-workflow",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/83077744db5606f80a5808ba9bba8cffe87f861cd6a0684ea143b24880df2b9e",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
+    },
+    {
+        "name" : "Career Essentials in System Administration",
+        "date" : "October 11th, 2023",
+        "source" : "LinkedIn Learning",
+        "issuer" : "Microsoft",
+        "author" : "Microsoft & LinkedIn",
+        "preview_image" : "/certificate-images/LinkedInLearning_CareerEssentialsinSystemAdministration.jpg",
+        "featured" : true,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/career-essentials-in-system-administration-by-microsoft-and-linkedin/start-your-sysadmin-journey",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/ab8ff9e0542d747e9730b4da86da51944153618487ea1bebca9cf6f29f8e2739",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
+    },
+    {
+        "name" : "Learning Data Analytics: 1 Foundations",
+        "date" : "October 11th, 2023",
+        "source" : "LinkedIn Learning",
+        "issuer" : "LinkedIn",
+        "author" : "Robin Hunt",
+        "preview_image" : "/certificate-images/LinkedInLearning_LearningDataAnalytics1Foundations.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/learning-data-analytics-1-foundations/beginning-your-data-analysis-journey",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/272aee253b6cf1b0d39e6f9520c0a068a070e31796f52283bf9150a9c2a336ba",
+            "pmi_link" : "",
+            "nasba_link" : "https://www.linkedin.com/learning/certificates/690d377f20fd67b07460f1563a74b341b7c5d7dc0f033688a77e890fe2d49139"
+        }
+    },
+    {
+        "name" : "Introduction to Career Skills in Data Analytics",
+        "date" : "October 11th, 2023",
+        "source" : "LinkedIn Learning",
+        "issuer" : "LinkedIn",
+        "author" : "Robin Hunt",
+        "preview_image" : "/certificate-images/LinkedInLearning_IntroductiontoCareerSkillsinDataAnalytics.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/introduction-to-career-skills-in-data-analytics/describing-data-best-practices",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/84c0aa04a1b39e12b8071020350281f399bc460cbd5e51937176f449749cdbc2",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
+    },
+    {
+        "name" : "Career Essentials in Software Development",
+        "date" : "October 11th, 2023",
+        "source" : "LinkedIn Learning",
+        "issuer" : "Microsoft",
+        "author" : "Microsoft & LinkedIn",
+        "preview_image" : "/certificate-images/LinkedInLearning_CareerEssentialsinSoftwareDevelopment.jpg",
+        "featured" : true,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/paths/career-essentials-in-software-development-by-microsoft-and-linkedin",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/6ccbca705b7fa01ed150ef54b6c0a84bb0aa80804b0092ec718241395999f50d",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
+    },
+    {
+        "name" : "Project Management Foundations: Requirements",
+        "date" : "October 12th, 2023",
+        "source" : "LinkedIn Learning",
+        "issuer" : "LinkedIn",
+        "author" : "Daniel Stanton",
+        "preview_image" : "/certificate-images/LinkedInLearning_ProjectManagementFoundationsRequirements.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/project-management-foundations-requirements-2019/managing-requirements-for-successful-projects",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/3f67a2e9e6ce7edfa8f671cc10763a73e67d33a0c4d5df141e34d26a8661596b",
+            "pmi_link" : "https://www.linkedin.com/learning/certificates/0859fbe2b524505c6e600c8e23c3c0c972272acfb2e5066b5839cb8ef74c0eb6",
+            "nasba_link" : "https://www.linkedin.com/learning/certificates/fd2bdefb3734ea50b42673a4ac9f2ccb482af74b923328538a220b7629ebc1cd"
+        }
+    },
+    {
+        "name" : "Learning Data Analytics Part 2: Extending and Applying Core Knowledge",
+        "date" : "October 13th, 2023",
+        "source" : "LinkedIn Learning",
+        "issuer" : "LinkedIn",
+        "author" : "Robin Hunt",
+        "preview_image" : "/certificate-images/LinkedInLearning_LearningDataAnalytics2ExtendingandApplyingCoreKnowledge.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/learning-data-analytics-part-2-extending-and-applying-core-knowledge/extending-your-data-analysis-skills",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/0957353c293e635a55abf633121df1d08c78161f7b0c4bf34bf231dbc7123055",
+            "pmi_link" : "",
+            "nasba_link" : "https://www.linkedin.com/learning/certificates/af131d747732184687a142866d244f5582e0065396369f195707a92a54399535"
+        }
+    },
+    {
+        "name" : "Career Essentials in Data Analysis",
+        "date" : "October 13th, 2023",
+        "source" : "LinkedIn Learning",
+        "issuer" : "Microsoft",
+        "author" : "Microsoft & LinkedIn",
+        "preview_image" : "/certificate-images/LinkedInLearning_CareerEssentialsinDataAnalysis.jpg",
+        "featured" : true,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/paths/career-essentials-in-data-analysis-by-microsoft-and-linkedin",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/c3e7ee17d04bb713324e41abc086a47ee866afa314ea38774e6e8afc3863153c",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
+    },
+    {
+        "name" : "Project Management Foundations",
+        "date" : "October 13th, 2023",
+        "source" : "LinkedIn Learning",
+        "issuer" : "LinkedIn",
+        "author" : "Bonnie Biafore",
+        "preview_image" : "/certificate-images/LinkedInLearning_ProjectManagementFoundations.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/project-management-foundations-15528659/deliver-successful-projects",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/6deff8031bed6cd55c58973b707887eba7f73721fa3a50e8ca3715f929e77177",
+            "pmi_link" : "https://www.linkedin.com/learning/certificates/aeab023b8fd9913840b1e8d58a7ede418201439e7a0be64eff7d489be7278412",
+            "nasba_link" : "https://www.linkedin.com/learning/certificates/fba11f4615d4abe17d00b5c608009eb50d6c5a99d7a361d05d9e88f38980a6cf"
+        }
+    },
+    {
+        "name" : "Project Management Foundations: Teams",
+        "date" : "October 25th, 2023",
+        "source" : "LinkedIn Learning",
+        "issuer" : "LinkedIn",
+        "author" : "Daniel Stanton",
+        "preview_image" : "/certificate-images/LinkedInLearning_ProjectManagementFoundationsTeams.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/project-management-foundations-teams-3/tools-for-successful-project-teams",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/5fbbc073282b36aa6234f365c44c0214ffba553143496fb639ff1540ec52a145",
+            "pmi_link" : "https://www.linkedin.com/learning/certificates/29331f53312053334a4fc14924403d8e199a6f7b3e016bae9e317feb9d74bff1",
+            "nasba_link" : "https://www.linkedin.com/learning/certificates/9767df563fd8127211c027d64fa4748938e205a5b06c785dbc59b0f23dbbe205"
+        }
+    },
+    {
+        "name" : "Managing Project Stakeholders",
+        "date" : "October 25th, 2023",
+        "source" : "LinkedIn Learning",
+        "issuer" : "LinkedIn",
+        "author" : "Natasha Kasimtseva",
+        "preview_image" : "/certificate-images/LinkedInLearning_ManagingProjectStakeholders.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/managing-project-stakeholders-2/stakeholders-drive-project-success",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/57f7cbf4804bd76fe0958252489f1befd72c73fb73649d16e9c54035c7d4a82e",
+            "pmi_link" : "https://www.linkedin.com/learning/certificates/d224f12c1fa1c8e8092301b00b89d409fba0b43d153beb0251841a80c1f45b5a",
+            "nasba_link" : "https://www.linkedin.com/learning/certificates/4969bbe297e0eb5a4079d6216addfc432f964130d69c32edc8dc49f973c08d79"
+        }
+    },
+    {
+        "name" : "Project Management Foundations: Communication",
+        "date" : "November 6th, 2023",
+        "source" : "LinkedIn Learning",
+        "issuer" : "LinkedIn",
+        "author" : "Doug Rose",
+        "preview_image" : "/certificate-images/LinkedInLearning_ProjectManagementFoundationsCommunication.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/project-management-foundations-communication-2019/communication-skills-benefit-projects",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/642ebc0e81dfa0fc92f5ca33a258e776c17791f26d40e46b90c54aeb359b5581",
+            "pmi_link" : "https://www.linkedin.com/learning/certificates/bca14615e89a6b5a645397a17dbcf101acefc2534cbfe492e23107955e3253d1",
+            "nasba_link" : "https://www.linkedin.com/learning/certificates/af22b314e937662a52d74732d990b225d384e0731b5de1b0f6b9467ac19deb0d"
+        }
+    },
+    {
+        "name" : "Practical GitHub Copilot",
+        "date" : "January 4th, 2024",
+        "source" : "LinkedIn Learning",
+        "issuer" : "LinkedIn",
+        "author" : "Ray Villalobos",
+        "preview_image" : "/certificate-images/LinkedInLearning_PracticalGitHubCopilot.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/practical-github-copilot",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/1fefc64ea66ac1398dd209332f3c95741a046378d1189a8b8c6d874c74762bb1",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
+    },
+    {
+        "name" : "Practical GitHub Project Management and Collaboration",
+        "date" : "January 4th, 2024",
+        "source" : "LinkedIn Learning",
+        "issuer" : "LinkedIn",
+        "author" : "Ray Villalobos",
+        "preview_image" : "/certificate-images/LinkedInLearning_PracticalGitHubProjectManagementandCollaboration.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/practical-github-project-management-and-collaboration",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/c717f0901045e8682f5f6b1b42e9bed915bf08c3ad79e32690dbb828783d23ee",
+            "pmi_link" : "https://www.linkedin.com/learning/certificates/77b473b988a7505cab7c258d44be3f417a84b526139adc10c0212cff1db03708",
+            "nasba_link" : ""
+        }
+    },
+    {
+        "name" : "Practical GitHub Actions",
+        "date" : "January 4th, 2024",
+        "source" : "LinkedIn Learning",
+        "issuer" : "LinkedIn",
+        "author" : "Ray Villalobos",
+        "preview_image" : "/certificate-images/LinkedInLearning_PracticalGitHubActions.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/practical-github-actions",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/6bfee30c4d7a0a4789e710436da3e9562e6df0694958f3e653065aa0c55663a8",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
+    },
+    {
+        "name" : "Nano Tips for Using Microsoft Office",
+        "date" : "February 7th, 2024",
+        "source" : "LinkedIn Learning",
+        "issuer" : "LinkedIn",
+        "author" : "Mike Tholfsen",
+        "preview_image" : "/certificate-images/LinkedInLearning_NanoTipsforUsingMicrosoftOffice.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/nano-tips-for-using-microsoft-office-with-mike-tholfsen",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/967847e326c3aa083879aa52b52e012f6c1040fd5695a2b82d0edbc649d29f60",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
+    },
+    {
+        "name" : "Communicating with Confidence (2015)",
+        "date" : "February 24th, 2024",
+        "source" : "LinkedIn Learning",
+        "issuer" : "LinkedIn",
+        "author" : "Jeff Ansel",
+        "preview_image" : "/certificate-images/LinkedInLearning_CommunicatingwithConfidence.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/communicating-with-confidence-2015",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/9f2619506bc06f5b73ff9b7f750dd91df529e1dae0ea55444e779c4cf65c4310",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
+    },
+    {
+        "name" : "Inclusive Tech: Conducting Humane Code Reviews",
+        "date" : "February 26th, 2024",
+        "source" : "LinkedIn Learning",
+        "issuer" : "LinkedIn",
+        "author" : "Adrienne Braganza Tacke",
+        "preview_image" : "/certificate-images/LinkedInLearning_ConductingHumaneCodeReviews.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/inclusive-tech-conducting-humane-code-reviews",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/69f3bf839bb06563661a9a1ddcce3a330cb88630aaf82e7cfccb9ea182b6e7ab",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
+    }
+]

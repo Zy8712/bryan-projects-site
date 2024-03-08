@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Orbitron';
+    src: url('/fonts/Orbitron-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Oxanium';
+    src: url('/fonts/Oxanium-VariableFont_wght.ttf') format('truetype');
+}
+
+html::-webkit-scrollbar {
+    background-color: black;
+    width: 5px;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(.5, white), color-stop(1, navy));
+    border-radius: 10px;
+}
+
+.link-custom {
+    position: relative;
+}
+
+.link-custom::after {
+    content: "";
+    width: 0%;
+    /* animate the underline */
+    height: 2px;
+    background-color: navy;
+    position: absolute;
+    left: 0;
+    top: 105%;
+    transition: all 0.4s;
+    /* animate the underline */
+}
+
+/* animate the underline */
+.link-custom:hover::after {
+    width: 100%;
+}
+
+.link-custom:hover {
+    color: navy;
+}
