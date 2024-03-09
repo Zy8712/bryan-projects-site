@@ -1,6 +1,6 @@
 <div align="center">
-    <img src="./public/space-svgrepo-com.svg" width="400px" />
-    <h1>Bryan's Certificates Site</h1>
+    <img src="./public/difficulty-svgrepo-com.svg" width="400px" />
+    <h1>Bryan's Projects Site</h1>
     <img src="https://skillicons.dev/icons?i=html,css,js,vite,react,tailwind,vercel,vscode,svg&theme=dark" />
     <br />
     <br />
@@ -43,9 +43,7 @@ Stats from <a href="https://pagespeed.web.dev/">Pagespeed Insights</a>. Graphics
 
 | Date | Report Link | Desktop Score | Mobile Score |
 | :--------: | :----: | :------: | :------: |
-| Feb 29, 2024 10:45:34 PM EST | <a href="https://pagespeed.web.dev/analysis/https-bryan-certificates-site-vercel-app/rpmecky7h8?form_factor=desktop">Link</a> | P-97, A-100, BP-100, S-100 | P-96, A-92, BP-100, S-100 |
-| Feb 29, 2024 10:08:23 PM EST | <a href="https://pagespeed.web.dev/analysis/https-bryan-certificates-site-vercel-app/tnsbzr1clu?form_factor=desktop">Link</a> | P-96, A-100, BP-100, S-91 | P-71, A-92, BP-100, S-92 |
-| Feb 26, 2024 12:44:11 AM EST | <a href="https://pagespeed.web.dev/analysis/https-bryan-certificates-site-vercel-app/ftd6mcwpv4?form_factor=desktop">Link</a> | P-98, A-87, BP-100, S-80 | P-96, A-87, BP-100, S-83 |
+
 
 </details>
 

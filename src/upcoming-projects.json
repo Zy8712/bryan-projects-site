@@ -1,0 +1,167 @@
+[
+    {
+        "name": "Audiophile E-Commerce Website",
+        "date": "January 8th, 2024",
+        "project_status": "Last Updated",
+        "trial": 1,
+        "frontend_mentor_project": true,
+        "fem_difficulty": 5,
+        "preview_image": "audiophileecommercewebsite-desktop-preview.jpg",
+        "technologies": {
+            "html_TF": true,
+            "css_TF": true,
+            "javascript_TF": true,
+            "sass_TF": false,
+            "react_TF": true,
+            "tailwindcss_TF": true,
+            "bootstrap_TF": false,
+            "json_TF": false,
+            "api_TF": false,
+            "redux_TF": false,
+            "wouter_TF": true,
+            "nextjs_TF": false,
+            "angular_TF": false,
+            "vue_TF": false,
+            "figma_TF": true,
+            "postgesql_TF": false,
+            "typescript_TF": false
+        },
+        "links": {
+            "github_link": "https://github.com/Zy8712/audiophile-ecommerce-website",
+            "website_preview_link": "https://audiophilesite.vercel.app/",
+            "challenge_link": "https://www.frontendmentor.io/challenges/audiophile-ecommerce-website-C8cuSd_wx"
+        }
+    },
+    {
+        "name": "Invoice App",
+        "date": "",
+        "project_status": "In Queue",
+        "trial": 1,
+        "frontend_mentor_project": true,
+        "fem_difficulty": 5,
+        "preview_image": "/project-previews/fem-guru-previews/invoiceapp-desktop-preview.jpg",
+        "technologies": {
+            "html_TF": true,
+            "css_TF": true,
+            "javascript_TF": false,
+            "sass_TF": false,
+            "react_TF": true,
+            "tailwindcss_TF": true,
+            "bootstrap_TF": false,
+            "json_TF": false,
+            "api_TF": false,
+            "redux_TF": false,
+            "wouter_TF": false,
+            "nextjs_TF": true,
+            "angular_TF": false,
+            "vue_TF": false,
+            "figma_TF": true,
+            "postgesql_TF": true,
+            "typescript_TF": true
+        },
+        "links": {
+            "github_link": "",
+            "website_preview_link": "",
+            "challenge_link": "https://www.frontendmentor.io/challenges/invoice-app-i7KaLTQjl"
+        }
+    },
+    {
+        "name": "Kanban Task Management Web App",
+        "date": "",
+        "project_status": "In Queue",
+        "trial": 1,
+        "frontend_mentor_project": true,
+        "fem_difficulty": 5,
+        "preview_image": "/project-previews/fem-guru-previews/kanbantaskmanagementwebapp-desktop-preview.jpg",
+        "technologies": {
+            "html_TF": true,
+            "css_TF": true,
+            "javascript_TF": false,
+            "sass_TF": false,
+            "react_TF": true,
+            "tailwindcss_TF": true,
+            "bootstrap_TF": false,
+            "json_TF": false,
+            "api_TF": false,
+            "redux_TF": false,
+            "wouter_TF": false,
+            "nextjs_TF": true,
+            "angular_TF": false,
+            "vue_TF": false,
+            "figma_TF": true,
+            "postgesql_TF": true,
+            "typescript_TF": true
+        },
+        "links": {
+            "github_link": "",
+            "website_preview_link": "",
+            "challenge_link": "https://www.frontendmentor.io/challenges/kanban-task-management-web-app-wgQLt-HlbB"
+        }
+    },
+    {
+        "name": "Todo App",
+        "date": "",
+        "project_status": "In Queue",
+        "trial": 1,
+        "frontend_mentor_project": true,
+        "fem_difficulty": 3,
+        "preview_image": "/project-previews/todoapp-desktop-preview.jpg",
+        "technologies": {
+            "html_TF": false,
+            "css_TF": false,
+            "javascript_TF": false,
+            "sass_TF": false,
+            "react_TF": false,
+            "tailwindcss_TF": false,
+            "bootstrap_TF": false,
+            "json_TF": false,
+            "api_TF": false,
+            "redux_TF": false,
+            "wouter_TF": false,
+            "nextjs_TF": false,
+            "angular_TF": false,
+            "vue_TF": false,
+            "figma_TF": false,
+            "postgesql_TF": false,
+            "typescript_TF": false
+        },
+        "links": {
+            "github_link": "",
+            "website_preview_link": "",
+            "challenge_link": "https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW"
+        }
+    },
+    {
+        "name": "Launch Countdown Timer",
+        "date": "",
+        "project_status": "In Queue",
+        "trial": 1,
+        "frontend_mentor_project": true,
+        "fem_difficulty": 3,
+        "preview_image": "/project-previews/launchcountdowntimer-desktop-preview.jpg",
+        "technologies": {
+            "html_TF": true,
+            "css_TF": true,
+            "javascript_TF": true,
+            "sass_TF": true,
+            "react_TF": false,
+            "tailwindcss_TF": false,
+            "bootstrap_TF": false,
+            "json_TF": false,
+            "api_TF": false,
+            "redux_TF": false,
+            "wouter_TF": false,
+            "nextjs_TF": false,
+            "angular_TF": false,
+            "vue_TF": false,
+            "figma_TF": false,
+            "postgesql_TF": false,
+            "typescript_TF": false
+        },
+        "links": {
+            "github_link": "",
+            "website_preview_link": "",
+            "challenge_link": "https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-"
+        }
+    }
+]
