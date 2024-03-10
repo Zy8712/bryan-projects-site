@@ -41,6 +41,8 @@ export default {
       fontFamily: {
         'theme-orbitron': ['Orbitron', 'sans-serif'],
         'theme-oxanium': ['Oxanium', 'sans-serif'],
+        'theme-rubik': ['Rubik', 'sans-serif'], 
+        'theme-barlow': ['Barlow', 'sans-serif'],
       },
       backgroundImage: {
         'custom-background' : "url('/backgrounds/mesh-609-1920x1080.png')",

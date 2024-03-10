@@ -1,4 +1,4 @@
-
+import RenderCompleted from "../components/completed-page-components/RenderCompleted";
 
 export default function Completed() {
     return (
@@ -11,7 +11,7 @@ export default function Completed() {
                     </h1>
 
                     <div className="mt-20 w-full flex flex-wrap justify-around gap-4 text-center text-white font-theme-oxanium">
-
+                        <RenderCompleted />
                     </div>
 
                 </div>

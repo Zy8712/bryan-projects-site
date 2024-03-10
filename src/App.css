@@ -8,6 +8,16 @@
     src: url('/fonts/Oxanium-VariableFont_wght.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Rubik';
+    src: url('/fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('/fonts/Barlow-Regular.ttf') format('truetype');
+}
+
 html::-webkit-scrollbar {
     background-color: black;
     width: 5px;

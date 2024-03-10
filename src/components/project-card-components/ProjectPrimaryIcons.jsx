@@ -27,7 +27,7 @@ function ProjectPrimaryIcons(props) {
         { iconImage: JavaScript_Icon, alt: "javascript_icon", title: "Javascript", trueFalse: "javascript_TF" },
         { iconImage: SASS_Icon, alt: "sass_icon", title: "SASS/SCSS", trueFalse: "sass_TF" },
         { iconImage: React_Icon, alt: "react_icon", title: "React", trueFalse: "react_TF" },
-        { iconImage: Tailwind_Icon, alt: "tailwind_icon", title: "Tailwind CSS", trueFalse: "tailwind_TF" },
+        { iconImage: Tailwind_Icon, alt: "tailwind_icon", title: "Tailwind CSS", trueFalse: "tailwindcss_TF" },
         { iconImage: Bootstrap_Icon, alt: "bootstrap_icon", title: "Bootstrap", trueFalse: "bootstrap_TF" },
         { iconImage: JSON_Icon, alt: "json_icon", title: "JSON", trueFalse: "json_TF" },
         { iconImage: API_Icon, alt: "api_icon", title: "API", trueFalse: "api_TF" },

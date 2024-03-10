@@ -1,3 +1,4 @@
+import RenderInProgress from "../components/in_progress-page-components/RenderInProgress";
 
 export default function In_Progress() {
     return (
@@ -10,7 +11,7 @@ export default function In_Progress() {
                     </h1>
 
                     <div className="mt-20 w-full flex flex-wrap justify-around gap-4 text-center text-white font-theme-oxanium">
-
+                        <RenderInProgress />
                     </div>
 
                 </div>

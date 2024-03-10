@@ -5,8 +5,12 @@ export default function ProjectDetails(props) {
     return (
         <>
             <div className="mx-11 flex flex-col justify-between items-center text-center relative">
-                <span className="block mt-4 mb-3 text-2xl font-medium">{props.name}</span>
-                <p className="mb-3">{props.date}</p>
+                <span className="block mt-4 mb-2 text-2xl font-medium">{props.name}</span>
+                <p className="mb-4">
+                    {props.project_status}:&nbsp;
+                    {props.date}&nbsp;
+                    [Trial #{props.trial}]
+                </p>
 
                 <div className="flex justify-center items-center">
                     {props.children}
