@@ -1,4 +1,4 @@
-
+import RenderFeatured from "../components/featured-page-components/RenderFeatured";
 
 export default function Featured() {
     return (
@@ -11,7 +11,7 @@ export default function Featured() {
                     </h1>
 
                     <div className="mt-20 w-full flex flex-wrap justify-around gap-4 text-center text-white font-theme-oxanium">
-
+                        <RenderFeatured />
                     </div>
 
                 </div>
