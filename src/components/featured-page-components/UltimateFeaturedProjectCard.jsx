@@ -24,7 +24,7 @@ function FeaturedProjectCard({ data, index }) {
     };
 
     return (
-        <div className={`w-[98%] custom-sm:w-[550px] custom-lg:w-[1100px] min-h-[500px] custom-sm:min-h-0 h-auto custom-sm:h-[1000px] custom-lg:h-[500px] relative flex ${(index + 1) % 2 !== 0 ? 'flex-col custom-lg:flex-row' : 'flex-col custom-lg:flex-row-reverse'} mb-5 text-black font-bold font-theme-rubik rounded-xl bg-gradient-to-tr from-gradient-blue to-gradient-purple border-white border-8 border-solid`}>
+        <div className={`w-[98%] custom-sm:w-[550px] custom-lg:w-[1100px] min-h-[500px] custom-sm:min-h-0 h-auto custom-sm:h-[1000px] custom-lg:h-[500px] relative flex ${(index + 1) % 2 !== 0 ? 'flex-col custom-lg:flex-row' : 'flex-col custom-lg:flex-row-reverse'} mb-10 text-black font-bold font-theme-rubik rounded-xl bg-gradient-to-tr from-gradient-blue to-gradient-purple border-white border-8 border-solid`}>
 
             <div className={`absolute -top-9 ${(index + 1) % 2 !== 0 ? 'left-1 custom-sm:left-3' : 'right-1 custom-sm:right-3'} w-[230px] custom-sm:w-[268px] h-11 custom-sm:h-12 p-1 flex justify-center items-center text-center overflow-hidden rounded-full bg-gradient-to-tr from-gradient-blue to-gradient-purple z-10`}>
                 <p className="w-full h-full text-xl custom-sm:text-2xl font-semibold rounded-full leading-9 custom-sm:leading-10 bg-white mix-blend-lighten">
@@ -34,7 +34,6 @@ function FeaturedProjectCard({ data, index }) {
 
             <div className="w-full custom-lg:w-1/2 min-h-[250px] custom-sm:min-h-0 h-auto custom-sm:h-1/2 custom-lg:h-full">
                 <div className="w-full h-full custom-sm:h-4/5 flex justify-center items-center relative">
-                    {/**<img src={Object.values(data.preview_images)[currImage]} className="w-full custom-sm:w-auto h-auto custom-sm:h-[90%] rounded-none custom-sm:rounded-md" />*/}
 
                     <img src={Object.values(data.preview_images)[currImage]} className="w-full custom-sm:w-auto h-auto custom-sm:h-[90%] rounded-none custom-sm:rounded-md" alt="Preview" />
 
@@ -60,8 +59,8 @@ function FeaturedProjectCard({ data, index }) {
                     </p>
 
                     <p className="text-white text-md font-semibold">Project Source:&nbsp;
-                        <a href={data.challenge_link} target="__blank"
-                            className="text-gradient-blue uppercase underline" >
+                        <a href={data.links.challenge_link} target="__blank"
+                            className="text-gradient-blue uppercase underline underline-offset-2 hover:cursor-pointer" >
                             {data.project_source}
                         </a>
                     </p>
@@ -79,14 +78,14 @@ function FeaturedProjectCard({ data, index }) {
 
                     <div className="flex w-full h-14 custom-sm:absolute bottom-0">
                         <div className="w-1/2 h-full flex justify-center items-center text-4xl custom-sm:text-5xl text-white hover:cursor-pointer">
-                            <a href={data.github_link} target="__blank"
+                            <a href={data.links.github_link} target="__blank"
                                 className="flex justify-center items-center link-custom3">
                                 <i className="lab la-github mr-1"></i>
                                 <p className="text-base custom-sm:text-xl font-semibold">GitHub <span className="hidden custom-sm:inline">Repo</span></p>
                             </a>
                         </div>
                         <div className="w-1/2 h-full flex justify-center items-center text-3xl custom-sm:text-4xl text-white hover:cursor-pointer">
-                            <a href={data.website_preview_link} target="__blank"
+                            <a href={data.links.website_preview_link} target="__blank"
                                 className="flex justify-center items-center link-custom3">
                                 <i className="las la-external-link-alt mr-1"></i>
                                 <p className="text-base custom-sm:text-xl font-semibold">Preview <span className="hidden custom-sm:inline">Site</span></p>

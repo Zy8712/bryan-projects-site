@@ -52,11 +52,11 @@
         "fem_difficulty": 0,
         "site_icon": "/project-previews/personal-project-previews/portfolio-site/dragon-svgrepo-com.svg",
         "preview_images": {
-            "num_1": "/project-previews/personal-project-previews/portfolio-site/portfolio-site-edited.jpg",
-            "num_2": "",
-            "num_3": "",
-            "num_4": "",
-            "num_5": ""
+            "num_1": "/project-previews/personal-project-previews/portfolio-site/bryanliportfoliosite-desktop-preview_1.jpg",
+            "num_2": "/project-previews/personal-project-previews/portfolio-site/bryanliportfoliosite-desktop-preview_2.jpg",
+            "num_3": "/project-previews/personal-project-previews/portfolio-site/bryanliportfoliosite-desktop-preview_3.jpg",
+            "num_4": "/project-previews/personal-project-previews/portfolio-site/bryanliportfoliosite-desktop-preview_4.jpg",
+            "num_5": "/project-previews/personal-project-previews/portfolio-site/bryanliportfoliosite-desktop-preview_5.jpg"
         },
         "technologies": {
             "html_TF": true,
@@ -123,6 +123,48 @@
             "github_link": "https://github.com/Zy8712/frontend-mentor-challenges/tree/main/space-tourism-website/my-work",
             "website_preview_link": "https://frontend-mentor-challenges-pi-sage.vercel.app/space-tourism-website/my-work/index.html",
             "challenge_link": "https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3"
+        }
+    },
+    {
+        "name": "Bryan's Certificates Site",
+        "date": "Febuary 29th, 2024",
+        "project_status": "Completed",
+        "project_description": "A site showcasing my certificates, credentials, pins and badges earned through continuous self-study through online courses/resources. Updated regularly.",
+        "trial": 0,
+        "frontend_mentor_project": false,
+        "project_source": "Original",
+        "fem_difficulty": 0,
+        "site_icon": "/project-previews/personal-project-previews/bryan-certificates-site/space-svgrepo-com.svg",
+        "preview_images": {
+            "num_1": "/project-previews/personal-project-previews/bryan-certificates-site/bryanscertificatessite-desktop-preview_1.jpg",
+            "num_2": "/project-previews/personal-project-previews/bryan-certificates-site/bryanscertificatessite-desktop-preview_2.jpg",
+            "num_3": "/project-previews/personal-project-previews/bryan-certificates-site/bryanscertificatessite-desktop-preview_3.jpg",
+            "num_4": "/project-previews/personal-project-previews/bryan-certificates-site/bryanscertificatessite-desktop-preview_4.jpg",
+            "num_5": "/project-previews/personal-project-previews/bryan-certificates-site/bryanscertificatessite-desktop-preview_5.jpg"
+        },
+        "technologies": {
+            "html_TF": true,
+            "css_TF": true,
+            "javascript_TF": true,
+            "sass_TF": false,
+            "react_TF": true,
+            "tailwindcss_TF": true,
+            "bootstrap_TF": false,
+            "json_TF": true,
+            "api_TF": false,
+            "redux_TF": false,
+            "wouter_TF": true,
+            "nextjs_TF": false,
+            "angular_TF": false,
+            "vue_TF": false,
+            "figma_TF": false,
+            "postgresql_TF": false,
+            "typescript_TF": false
+        },
+        "links": {
+            "github_link": "https://github.com/Zy8712/bryan-certificates-site",
+            "website_preview_link": "https://bryan-certificates-site.vercel.app/",
+            "challenge_link": ""
         }
     }
 ]

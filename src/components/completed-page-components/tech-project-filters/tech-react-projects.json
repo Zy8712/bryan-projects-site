@@ -1,5 +1,38 @@
 [
     {
+        "name": "Bryan's Certificates Site",
+        "date": "Febuary 29th, 2024",
+        "project_status": "Completed",
+        "trial": 0,
+        "frontend_mentor_project": false,
+        "fem_difficulty": 0,
+        "preview_image": "/project-previews/personal-project-previews/bryan-certificates-site/bryanscertificatessite-desktop-preview_1.jpg",
+        "technologies": {
+            "html_TF": true,
+            "css_TF": true,
+            "javascript_TF": true,
+            "sass_TF": false,
+            "react_TF": true,
+            "tailwindcss_TF": true,
+            "bootstrap_TF": false,
+            "json_TF": true,
+            "api_TF": false,
+            "redux_TF": false,
+            "wouter_TF": true,
+            "nextjs_TF": false,
+            "angular_TF": false,
+            "vue_TF": false,
+            "figma_TF": false,
+            "postgresql_TF": false,
+            "typescript_TF": false
+        },
+        "links": {
+            "github_link": "https://github.com/Zy8712/bryan-certificates-site",
+            "website_preview_link": "https://bryan-certificates-site.vercel.app/",
+            "challenge_link": ""
+        }
+    },
+    {
         "name": "REST Countries API with Colour Theme Switcher",
         "date": "February 4th, 2024",
         "project_status": "Completed",
@@ -105,7 +138,7 @@
         "trial": 1,
         "frontend_mentor_project": false,
         "fem_difficulty": 0,
-        "preview_image": "/project-previews/personal-project-previews/portfolio-site-edited.jpg",
+        "preview_image": "/project-previews/personal-project-previews/portfolio-site/bryanliportfoliosite-desktop-preview_1.jpg",
         "technologies": {
             "html_TF": true,
             "css_TF": true,
@@ -138,7 +171,7 @@
         "trial": 1,
         "frontend_mentor_project": true,
         "fem_difficulty": 5,
-        "preview_image": "/project-previews/fem-guru-previews/audiophileecommercewebsite-desktop-preview.jpg",
+        "preview_image": "/project-previews/fem-guru-previews/audiophile-ecommerce-website/audiophileecommercewebsite-desktop-preview.jpg",
         "technologies": {
             "html_TF": true,
             "css_TF": true,
