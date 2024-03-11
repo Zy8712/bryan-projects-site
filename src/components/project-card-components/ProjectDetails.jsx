@@ -9,7 +9,9 @@ export default function ProjectDetails(props) {
                 <p className="mb-4">
                     {props.project_status}:&nbsp;
                     {props.date}&nbsp;
-                    [Trial #{props.trial}]
+                    <span className={`${props.trial > 0 ? 'inline' : 'hidden'}`}>
+                        [Trial #{props.trial}]
+                    </span>
                 </p>
 
                 <div className="flex justify-center items-center">
