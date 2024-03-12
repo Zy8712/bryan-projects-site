@@ -43,7 +43,7 @@ export default function ProjectFilters({ activeFilter, toggleFilter }) {
 
     return (
         <>
-            <div className="w-full flex flex-col items-center mb-10">
+            <div className="mt-10 w-full flex flex-col items-center">
                 <div className="my-1 flex justify-center flex-wrap">
                     {renderFilters1()}
                 </div>

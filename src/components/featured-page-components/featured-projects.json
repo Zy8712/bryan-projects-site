@@ -1,5 +1,47 @@
 [
     {
+        "name": "REST Countries API with Colour Theme Switcher",
+        "date": "February 4th, 2024",
+        "project_status": "Completed",
+        "project_description": "",
+        "trial": 1,
+        "frontend_mentor_project": true,
+        "project_source": "Frontend Mentor",
+        "fem_difficulty": 4,
+        "site_icon": "/project-previews/fem-advanced-previews/rest-countries-website/world-map-svgrepo-com.svg",
+        "preview_images": {
+            "num_1": "/project-previews/fem-advanced-previews/rest-countries-website/restcountriesapiwithcolorthemeswitcher-desktop-preview.jpg",
+            "num_2": "/project-previews/fem-advanced-previews/rest-countries-website/restcountriesapiwithcolorthemeswitcher-mobile-preview.jpg",
+            "num_3": "/project-previews/fem-advanced-previews/rest-countries-website/restcountriesapiwithcolorthemeswitcher-custom-home-preview.jpg",
+            "num_4": "/project-previews/fem-advanced-previews/rest-countries-website/restcountriesapiwithcolorthemeswitcher-custom-info-preview.jpg",
+            "num_5": "/project-previews/fem-advanced-previews/rest-countries-website/restcountriesapiwithcolorthemeswitcher-custom-flag-preview.jpg"
+        },
+        "technologies": {
+            "html_TF": true,
+            "css_TF": false,
+            "javascript_TF": true,
+            "sass_TF": false,
+            "react_TF": true,
+            "tailwindcss_TF": true,
+            "bootstrap_TF": false,
+            "json_TF": true,
+            "api_TF": true,
+            "redux_TF": false,
+            "wouter_TF": true,
+            "nextjs_TF": false,
+            "angular_TF": false,
+            "vue_TF": false,
+            "figma_TF": false,
+            "postgresql_TF": false,
+            "typescript_TF": false
+        },
+        "links": {
+            "github_link": "https://github.com/Zy8712/rest-countries-api-site",
+            "website_preview_link": "https://rest-countries-api-site.vercel.app/",
+            "challenge_link": "https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca"
+        }
+    },
+    {
         "name": "Audiophile E-Commerce Website",
         "date": "January 8th, 2024",
         "project_status": "Completed",
@@ -126,7 +168,7 @@
         }
     },
     {
-        "name": "Bryan's Certificates Site",
+        "name": "Certificates, Credentials & Digital Badges Site",
         "date": "Febuary 29th, 2024",
         "project_status": "Completed",
         "project_description": "A site showcasing my certificates, credentials, pins and badges earned through continuous self-study through online courses/resources. Updated regularly.",

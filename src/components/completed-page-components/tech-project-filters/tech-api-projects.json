@@ -6,7 +6,7 @@
         "trial": 1,
         "frontend_mentor_project": true,
         "fem_difficulty": 4,
-        "preview_image": "/project-previews/fem-advanced-previews/restcountriesapiwithcolorthemeswitcher-desktop-preview.jpg",
+        "preview_image": "/project-previews/fem-advanced-previews/rest-countries-website/restcountriesapiwithcolorthemeswitcher-desktop-preview.jpg",
         "technologies": {
             "html_TF": true,
             "css_TF": false,
@@ -72,7 +72,7 @@
         "trial": 3,
         "frontend_mentor_project": true,
         "fem_difficulty": 2,
-        "preview_image": "advicegeneratorapp-desktop-preview.jpg",
+        "preview_image": "/project-previews/fem-junior-previews/advicegeneratorapp-desktop-preview.jpg",
         "technologies": {
             "html_TF": true,
             "css_TF": true,
@@ -105,7 +105,7 @@
         "trial": 2,
         "frontend_mentor_project": true,
         "fem_difficulty": 2,
-        "preview_image": "advicegeneratorapp-desktop-preview.jpg",
+        "preview_image": "/project-previews/fem-junior-previews/advicegeneratorapp-desktop-preview.jpg",
         "technologies": {
             "html_TF": true,
             "css_TF": true,
@@ -138,7 +138,7 @@
         "trial": 1,
         "frontend_mentor_project": true,
         "fem_difficulty": 3,
-        "preview_image": "ipaddresstracker-desktop-preview.jpg",
+        "preview_image": "/project-previews/fem-intermediate-previews/ipaddresstracker-desktop-preview.jpg",
         "technologies": {
             "html_TF": true,
             "css_TF": true,
@@ -171,7 +171,7 @@
         "trial": 1,
         "frontend_mentor_project": true,
         "fem_difficulty": 2,
-        "preview_image": "advicegeneratorapp-desktop-preview.jpg",
+        "preview_image": "/project-previews/fem-junior-previews/advicegeneratorapp-desktop-preview.jpg",
         "technologies": {
             "html_TF": true,
             "css_TF": true,

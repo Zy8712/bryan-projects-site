@@ -1,0 +1,167 @@
+[
+    {
+        "name": "Bryan's Certificates Site",
+        "date": "Febuary 29th, 2024",
+        "project_status": "Completed",
+        "trial": 0,
+        "frontend_mentor_project": false,
+        "fem_difficulty": 0,
+        "preview_image": "/project-previews/personal-project-previews/bryan-certificates-site/bryanscertificatessite-desktop-preview_1.jpg",
+        "technologies": {
+            "html_TF": true,
+            "css_TF": true,
+            "javascript_TF": true,
+            "sass_TF": false,
+            "react_TF": true,
+            "tailwindcss_TF": true,
+            "bootstrap_TF": false,
+            "json_TF": true,
+            "api_TF": false,
+            "redux_TF": false,
+            "wouter_TF": true,
+            "nextjs_TF": false,
+            "angular_TF": false,
+            "vue_TF": false,
+            "figma_TF": false,
+            "postgresql_TF": false,
+            "typescript_TF": false
+        },
+        "links": {
+            "github_link": "https://github.com/Zy8712/bryan-certificates-site",
+            "website_preview_link": "https://bryan-certificates-site.vercel.app/",
+            "challenge_link": ""
+        }
+    },
+    {
+        "name": "Lazy Cat",
+        "date": "Febuary 1st, 2024",
+        "project_status": "Last Updated",
+        "trial": 0,
+        "frontend_mentor_project": false,
+        "fem_difficulty": 0,
+        "preview_image": "/project-previews/personal-project-previews/lazycat-desktop-preview.jpg",
+        "technologies": {
+            "html_TF": true,
+            "css_TF": true,
+            "javascript_TF": true,
+            "sass_TF": false,
+            "react_TF": true,
+            "tailwindcss_TF": true,
+            "bootstrap_TF": false,
+            "json_TF": false,
+            "api_TF": true,
+            "redux_TF": false,
+            "wouter_TF": false,
+            "nextjs_TF": false,
+            "angular_TF": false,
+            "vue_TF": false,
+            "figma_TF": false,
+            "postgresql_TF": false,
+            "typescript_TF": false
+        },
+        "links": {
+            "github_link": "https://github.com/Zy8712/RandomMiniWebProjects/tree/main/LazyCat",
+            "website_preview_link": "https://lazy-cat.vercel.app/",
+            "challenge_link": ""
+        }
+    },
+    {
+        "name": "Portfolio Site",
+        "date": "Febuary 1st, 2024",
+        "project_status": "Last Updated",
+        "trial": 0,
+        "frontend_mentor_project": false,
+        "fem_difficulty": 0,
+        "preview_image": "/project-previews/personal-project-previews/portfolio-site/bryanliportfoliosite-desktop-preview_1.jpg",
+        "technologies": {
+            "html_TF": true,
+            "css_TF": true,
+            "javascript_TF": true,
+            "sass_TF": false,
+            "react_TF": true,
+            "tailwindcss_TF": true,
+            "bootstrap_TF": false,
+            "json_TF": false,
+            "api_TF": false,
+            "redux_TF": true,
+            "wouter_TF": true,
+            "nextjs_TF": false,
+            "angular_TF": false,
+            "vue_TF": false,
+            "figma_TF": false,
+            "postgresql_TF": false,
+            "typescript_TF": false
+        },
+        "links": {
+            "github_link": "https://github.com/Zy8712/bryan-li",
+            "website_preview_link": "https://bryanli.vercel.app/",
+            "challenge_link": ""
+        }
+    },
+    {
+        "name": "REST Countries API with Colour Theme Switcher",
+        "date": "February 4th, 2024",
+        "project_status": "Completed",
+        "trial": 1,
+        "frontend_mentor_project": true,
+        "fem_difficulty": 4,
+        "preview_image": "/project-previews/fem-advanced-previews/rest-countries-website/restcountriesapiwithcolorthemeswitcher-desktop-preview.jpg",
+        "technologies": {
+            "html_TF": true,
+            "css_TF": false,
+            "javascript_TF": true,
+            "sass_TF": false,
+            "react_TF": true,
+            "tailwindcss_TF": true,
+            "bootstrap_TF": false,
+            "json_TF": true,
+            "api_TF": true,
+            "redux_TF": true,
+            "wouter_TF": true,
+            "nextjs_TF": false,
+            "angular_TF": false,
+            "vue_TF": false,
+            "figma_TF": false,
+            "postgresql_TF": false,
+            "typescript_TF": false
+        },
+        "links": {
+            "github_link": "https://github.com/Zy8712/rest-countries-api-site",
+            "website_preview_link": "https://rest-countries-api-site.vercel.app/",
+            "challenge_link": "https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca"
+        }
+    },
+    {
+        "name": "Audiophile E-Commerce Website",
+        "date": "January 8th, 2024",
+        "project_status": "Last Updated",
+        "trial": 1,
+        "frontend_mentor_project": true,
+        "fem_difficulty": 5,
+        "preview_image": "/project-previews/fem-guru-previews/audiophile-ecommerce-website/audiophileecommercewebsite-desktop-preview.jpg",
+        "technologies": {
+            "html_TF": true,
+            "css_TF": true,
+            "javascript_TF": true,
+            "sass_TF": false,
+            "react_TF": true,
+            "tailwindcss_TF": true,
+            "bootstrap_TF": false,
+            "json_TF": false,
+            "api_TF": false,
+            "redux_TF": false,
+            "wouter_TF": true,
+            "nextjs_TF": false,
+            "angular_TF": false,
+            "vue_TF": false,
+            "figma_TF": true,
+            "postgresql_TF": false,
+            "typescript_TF": false
+        },
+        "links": {
+            "github_link": "https://github.com/Zy8712/audiophile-ecommerce-website",
+            "website_preview_link": "https://audiophilesite.vercel.app/",
+            "challenge_link": "https://www.frontendmentor.io/challenges/audiophile-ecommerce-website-C8cuSd_wx"
+        }
+    }
+]

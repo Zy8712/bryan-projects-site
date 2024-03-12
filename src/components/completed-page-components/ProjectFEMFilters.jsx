@@ -28,7 +28,7 @@ export default function ProjectFEMFilter({ activeFilter, activeFEMFilter, toggle
 
     return (
         <>
-            <div className={`w-[780px] font-theme-barlow ${activeFilter == 0 ? 'flex' : 'hidden'} flex-wrap justify-center`}>
+            <div className={`mt-10 w-[780px] font-theme-barlow ${activeFilter == 0 ? 'flex' : 'hidden'} flex-wrap justify-center`}>
 
                 <button aria-label={`Featured FEM Projects Filter Option`} onClick={() => toggleFEMFilter(0)}
                     className={`mx-2 mb-2 border-2 border-solid border-t-fem-featured-2 border-b-fem-featured-1 border-r-fem-featured-1 border-l-fem-featured-1 rounded-lg inline-flex justify-center overflow-hidden ${activeFEMFilter == 0 ? 'shadow-lg shadow-white' : 'opacity-70 hover:opacity-100'}`}>
