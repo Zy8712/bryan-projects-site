@@ -1,38 +1,5 @@
 [
     {
-        "name": "Audiophile E-Commerce Website",
-        "date": "January 8th, 2024",
-        "project_status": "Completed",
-        "trial": 1,
-        "frontend_mentor_project": true,
-        "fem_difficulty": 5,
-        "preview_image": "/project-previews/fem-guru-previews/audiophile-ecommerce-website/audiophileecommercewebsite-desktop-preview.jpg",
-        "technologies": {
-            "html_TF": true,
-            "css_TF": true,
-            "javascript_TF": true,
-            "sass_TF": false,
-            "react_TF": true,
-            "tailwindcss_TF": true,
-            "bootstrap_TF": false,
-            "json_TF": false,
-            "api_TF": false,
-            "redux_TF": false,
-            "wouter_TF": true,
-            "nextjs_TF": false,
-            "angular_TF": false,
-            "vue_TF": false,
-            "figma_TF": true,
-            "postgesql_TF": false,
-            "typescript_TF": false
-        },
-        "links": {
-            "github_link": "https://github.com/Zy8712/audiophile-ecommerce-website",
-            "website_preview_link": "https://audiophilesite.vercel.app/",
-            "challenge_link": "https://www.frontendmentor.io/challenges/audiophile-ecommerce-website-C8cuSd_wx"
-        }
-    },
-    {
         "name": "Invoice App",
         "date": "",
         "project_status": "In Queue",

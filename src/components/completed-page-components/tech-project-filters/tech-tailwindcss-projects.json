@@ -167,7 +167,7 @@
     {
         "name": "Audiophile E-Commerce Website",
         "date": "January 8th, 2024",
-        "project_status": "Last Updated",
+        "project_status": "Completed",
         "trial": 1,
         "frontend_mentor_project": true,
         "fem_difficulty": 5,
@@ -188,7 +188,7 @@
             "angular_TF": false,
             "vue_TF": false,
             "figma_TF": true,
-            "postgresql_TF": false,
+            "postgesql_TF": false,
             "typescript_TF": false
         },
         "links": {
