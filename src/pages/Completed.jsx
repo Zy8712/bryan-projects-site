@@ -22,7 +22,7 @@ export default function Completed() {
 
     const [activeItemCount, setActiveItemCount] = useState(0);
     const toggleItemCount = (num) => {
-        if (num != activeItemCount){
+        if (num != activeItemCount) {
             setActiveItemCount(num);
         }
     }
@@ -36,16 +36,18 @@ export default function Completed() {
                         Completed
                     </h1>
 
-                    <ProjectFilters
-                        activeFilter={activeFilter}
-                        toggleFilter={toggleFilter}
-                    />
+                    <div className={`mt-10 custom-md:mt-0 w-[340px] custom-md:w-full flex flex-row custom-md:flex-col ${activeFilter === 0 ? 'justify-between custom-md:justify-normal' : 'justify-center'} items-center`}>
+                        <ProjectFilters
+                            activeFilter={activeFilter}
+                            toggleFilter={toggleFilter}
+                        />
 
-                    <ProjectFEMFilters
-                        activeFilter={activeFilter}
-                        activeFEMFilter={activeFEMFilter}
-                        toggleFEMFilter={toggleFEMFilter}
-                    />
+                        <ProjectFEMFilters
+                            activeFilter={activeFilter}
+                            activeFEMFilter={activeFEMFilter}
+                            toggleFEMFilter={toggleFEMFilter}
+                        />
+                    </div>
 
                     <div className="mt-10 w-full flex justify-center text-center text-white font-theme-rubik uppercase font-semibold text-2xl">
                         <p>{activeItemCount} Results for Selected Filter</p>

@@ -71,14 +71,14 @@ const ProjectFilters = React.memo(({ activeFilter, toggleFilter }) => {
     };
 
     return (
-        <div className="mt-10 w-auto custom-md:w-full flex flex-col items-center relative">
+        <div className="mt-0 custom-md:mt-10 w-40 custom-md:w-full flex flex-col items-center relative">
             <div className="my-1 hidden custom-md:flex justify-center flex-wrap">
                 {renderFilterButtons(filterOptions.slice(0, 3), 0)}
             </div>
             <div className="my-1 hidden custom-md:flex justify-center flex-wrap">
                 {renderFilterButtons(filterOptions.slice(3), 3)}
             </div>
-            <div ref={dropdownRef} className={`mt-4 custom-md:hidden absolute z-50 -bottom-[365px] left-0 w-64 h-[360px] bg-white shadow-md overflow-hidden rounded-lg ${dropdownOpen ? 'block' : 'hidden'}`}>
+            <div ref={dropdownRef} className={`custom-md:hidden absolute z-50 -bottom-[365px] left-0 w-64 h-[360px] bg-white shadow-md overflow-hidden rounded-lg ${dropdownOpen ? 'block' : 'hidden'}`}>
                 {filterOptions.map((filter, index) => (
                     <button
                         key={index}
@@ -91,7 +91,7 @@ const ProjectFilters = React.memo(({ activeFilter, toggleFilter }) => {
                     </button>
                 ))}
             </div>
-            <button ref={buttonRef} onClick={toggleDropdown} className="mt-4 w-40 h-10 custom-md:hidden text-white border-white border-2 border-solid rounded-md">
+            <button ref={buttonRef} onClick={toggleDropdown} className="w-40 h-10 custom-md:hidden text-white border-white border-2 border-solid rounded-md">
                 Filter Options <i className={`las ${dropdownOpen ? 'la-chevron-up' : 'la-chevron-down'} ml-1`}></i>
             </button>
         </div>
