@@ -95,7 +95,7 @@ export default function ProjectFEMFilter({ activeFilter, activeFEMFilter, toggle
                     <button
                         aria-label={`Featured FEM Projects Filter Option`}
                         onClick={() => toggleFEMFilter(0)}
-                        className={`my-0 w-full h-10 flex items-center bg-gradient-to-tr from-fem-featured-1 to-fem-featured-2 font-semibold overflow-hidden ${activeFEMFilter === 0 ? '' : 'opacity-70 hover:opacity-100'}`}
+                        className={`my-0 w-full h-10 flex items-center bg-gradient-to-tr from-fem-featured-1 to-fem-featured-2 font-semibold overflow-hidden ${activeFEMFilter === 0 ? '' : 'opacity-50 hover:opacity-100'}`}
                     >
                         <span className={`px-3 text-white text-base `}>
                             <img src={StarSparkle} className="w-4 h-4" alt="Featured Icon" />
@@ -110,7 +110,7 @@ export default function ProjectFEMFilter({ activeFilter, activeFEMFilter, toggle
                             key={filter.level}
                             aria-label={`${filter.text} FEM Project Filter Option`}
                             onClick={() => toggleFEMFilter(filter.level)}
-                            className={`my-0 w-full h-10 flex items-center ${filter.buttonBackgroundColour} font-semibold overflow-hidden ${activeFEMFilter === filter.level ? 'border-white border-2 border-solid' : 'opacity-70 hover:opacity-100'}`}
+                            className={`my-0 w-full h-10 flex items-center ${filter.buttonBackgroundColour} font-semibold overflow-hidden ${activeFEMFilter === filter.level ? 'border-white border-2 border-solid' : 'opacity-50 hover:opacity-100'}`}
                         >
                             <span className={`px-4 text-white text-base`}>
                                 {filter.level}

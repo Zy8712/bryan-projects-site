@@ -45,8 +45,8 @@ export default {
         'theme-barlow': ['Barlow', 'sans-serif'],
       },
       backgroundImage: {
-        'custom-background' : "url('/backgrounds/mesh-609-1920x1080.png')",
-        'custom-background-2' : "url('/backgrounds/mesh-609-480x853.png')",
+        'custom-background' : "url('/backgrounds/mesh-943-1920x1080.png')",
+        'custom-background-2' : "url('/backgrounds/mesh-943-480x853.png')",
       },
       screens: {
         'custom-xl' : '1200px',
