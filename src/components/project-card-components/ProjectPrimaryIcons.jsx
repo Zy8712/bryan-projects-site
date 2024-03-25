@@ -48,7 +48,7 @@ function ProjectPrimaryIcons(props) {
                     src={icon.iconImage}
                     alt={icon.alt}
                     title={icon.title}
-                    className={`w-[30px] ${(activeIconCount - 1) > 7 ? 'mx-[6px]' : 'mx-2'} ${props[icon.trueFalse] ? 'inline' : 'hidden'}`}
+                    className={`w-[30px] ${(activeIconCount) > 7 ? 'mx-[6px]' : 'mx-2'} ${props[icon.trueFalse] ? 'inline' : 'hidden'}`}
                 />
                 <div>
                     {props.html_TF}

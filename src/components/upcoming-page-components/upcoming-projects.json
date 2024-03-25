@@ -130,5 +130,203 @@
             "website_preview_link": "",
             "challenge_link": "https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-"
         }
+    },
+    {
+        "name": "Invoice App",
+        "date": "",
+        "project_status": "In Queue",
+        "trial": 1,
+        "frontend_mentor_project": true,
+        "fem_difficulty": 5,
+        "preview_image": "/project-previews/fem-guru-previews/invoiceapp-desktop-preview.jpg",
+        "technologies": {
+            "html_TF": true,
+            "css_TF": true,
+            "javascript_TF": false,
+            "sass_TF": false,
+            "react_TF": true,
+            "tailwindcss_TF": true,
+            "bootstrap_TF": false,
+            "json_TF": false,
+            "api_TF": false,
+            "redux_TF": false,
+            "wouter_TF": false,
+            "nextjs_TF": true,
+            "angular_TF": false,
+            "vue_TF": false,
+            "figma_TF": true,
+            "postgesql_TF": true,
+            "typescript_TF": true
+        },
+        "links": {
+            "github_link": "",
+            "website_preview_link": "",
+            "challenge_link": "https://www.frontendmentor.io/challenges/invoice-app-i7KaLTQjl"
+        }
+    },
+    {
+        "name": "Arch Studio Multi Page Website",
+        "date": "",
+        "project_status": "In Queue",
+        "trial": 1,
+        "frontend_mentor_project": true,
+        "fem_difficulty": 4,
+        "preview_image": "/project-previews/fem-advanced-previews/archstudiomultipagewebsite-desktop-preview.jpg",
+        "technologies": {
+            "html_TF": true,
+            "css_TF": true,
+            "javascript_TF": true,
+            "sass_TF": false,
+            "react_TF": true,
+            "tailwindcss_TF": true,
+            "bootstrap_TF": false,
+            "json_TF": false,
+            "api_TF": false,
+            "redux_TF": false,
+            "wouter_TF": true,
+            "nextjs_TF": false,
+            "angular_TF": false,
+            "vue_TF": false,
+            "figma_TF": true,
+            "postgesql_TF": false,
+            "typescript_TF": false
+        },
+        "links": {
+            "github_link": "",
+            "website_preview_link": "",
+            "challenge_link": ""
+        }
+    },
+    {
+        "name": "Designo Multi Page Website",
+        "date": "",
+        "project_status": "In Queue",
+        "trial": 1,
+        "frontend_mentor_project": true,
+        "fem_difficulty": 4,
+        "preview_image": "/project-previews/fem-advanced-previews/designomultipagewebsite-desktop-preview.jpg",
+        "technologies": {
+            "html_TF": true,
+            "css_TF": true,
+            "javascript_TF": true,
+            "sass_TF": false,
+            "react_TF": true,
+            "tailwindcss_TF": true,
+            "bootstrap_TF": false,
+            "json_TF": false,
+            "api_TF": false,
+            "redux_TF": false,
+            "wouter_TF": true,
+            "nextjs_TF": false,
+            "angular_TF": false,
+            "vue_TF": false,
+            "figma_TF": true,
+            "postgesql_TF": false,
+            "typescript_TF": false
+        },
+        "links": {
+            "github_link": "",
+            "website_preview_link": "",
+            "challenge_link": ""
+        }
+    },
+    {
+        "name": "My Team Multi Page Website",
+        "date": "",
+        "project_status": "In Queue",
+        "trial": 1,
+        "frontend_mentor_project": true,
+        "fem_difficulty": 4,
+        "preview_image": "/project-previews/fem-advanced-previews/myteammultipagewebsite-desktop-preview.jpg",
+        "technologies": {
+            "html_TF": true,
+            "css_TF": true,
+            "javascript_TF": true,
+            "sass_TF": false,
+            "react_TF": true,
+            "tailwindcss_TF": true,
+            "bootstrap_TF": false,
+            "json_TF": false,
+            "api_TF": false,
+            "redux_TF": false,
+            "wouter_TF": true,
+            "nextjs_TF": false,
+            "angular_TF": false,
+            "vue_TF": false,
+            "figma_TF": true,
+            "postgesql_TF": false,
+            "typescript_TF": false
+        },
+        "links": {
+            "github_link": "",
+            "website_preview_link": "",
+            "challenge_link": ""
+        }
+    },
+    {
+        "name": "Pay API Multi Page Website",
+        "date": "",
+        "project_status": "In Queue",
+        "trial": 1,
+        "frontend_mentor_project": true,
+        "fem_difficulty": 4,
+        "preview_image": "/project-previews/fem-advanced-previews/payapimultipagewebsite-desktop-preview.jpg",
+        "technologies": {
+            "html_TF": true,
+            "css_TF": true,
+            "javascript_TF": true,
+            "sass_TF": false,
+            "react_TF": true,
+            "tailwindcss_TF": true,
+            "bootstrap_TF": false,
+            "json_TF": false,
+            "api_TF": false,
+            "redux_TF": false,
+            "wouter_TF": true,
+            "nextjs_TF": false,
+            "angular_TF": false,
+            "vue_TF": false,
+            "figma_TF": true,
+            "postgesql_TF": false,
+            "typescript_TF": false
+        },
+        "links": {
+            "github_link": "",
+            "website_preview_link": "",
+            "challenge_link": ""
+        }
+    },
+    {
+        "name": "Photosnap Multi Page Website",
+        "date": "",
+        "project_status": "In Queue",
+        "trial": 1,
+        "frontend_mentor_project": true,
+        "fem_difficulty": 4,
+        "preview_image": "/project-previews/fem-advanced-previews/photosnapmultipagewebsite-desktop-preview.jpg",
+        "technologies": {
+            "html_TF": true,
+            "css_TF": true,
+            "javascript_TF": true,
+            "sass_TF": false,
+            "react_TF": true,
+            "tailwindcss_TF": true,
+            "bootstrap_TF": false,
+            "json_TF": false,
+            "api_TF": false,
+            "redux_TF": false,
+            "wouter_TF": true,
+            "nextjs_TF": false,
+            "angular_TF": false,
+            "vue_TF": false,
+            "figma_TF": true,
+            "postgesql_TF": false,
+            "typescript_TF": false
+        },
+        "links": {
+            "github_link": "",
+            "website_preview_link": "",
+            "challenge_link": ""
+        }
     }
 ]

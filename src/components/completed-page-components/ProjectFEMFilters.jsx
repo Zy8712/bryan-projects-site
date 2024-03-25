@@ -64,7 +64,7 @@ export default function ProjectFEMFilter({ activeFilter, activeFEMFilter, toggle
                 <span className={`px-2 py-2 ${buttonBackgroundColour} text-white text-base font-bold`}>
                     {level}
                 </span>
-                <span className={`px-2 py-2 bg-transparent ${buttonTextColour} text-base font-bold uppercase leading-normal`}>
+                <span className={`px-2 py-2 bg-black bg-opacity-60 ${buttonTextColour} text-base font-extrabold uppercase leading-normal`}>
                     {text}
                 </span>
             </button>
@@ -82,7 +82,7 @@ export default function ProjectFEMFilter({ activeFilter, activeFEMFilter, toggle
                     <span className="px-3 py-2 bg-gradient-to-t from-fem-featured-1 to-fem-featured-2">
                         <img src={StarSparkle} className="w-6 h-6" alt="Featured Icon" />
                     </span>
-                    <span className="px-3 py-2 bg-transparent text-fem-featured-1 text-base font-bold uppercase leading-normal">
+                    <span className="px-3 py-2 bg-black bg-opacity-60 text-fem-featured-1 text-base font-extrabold uppercase leading-normal">
                         Featured
                     </span>
                 </button>
