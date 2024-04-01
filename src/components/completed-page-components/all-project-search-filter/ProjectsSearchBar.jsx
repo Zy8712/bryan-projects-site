@@ -22,7 +22,7 @@ export default function ProjectsSearchBar({ toggleSearchBarActive, setSearchQuer
                     <img src={SearchIcon} className="absolute left-5 top-[50%] -translate-y-[50%] w-12" />
                     <input 
                         type="text" 
-                        placeholder="Search by project name..." 
+                        placeholder="Search by project name or technology..." 
                         className="w-full h-full ps-20 font-theme-oxanium bg-white rounded-full focus:bg-gradient-to-tr from-gradient-blue to-gradient-purple focus:text-white focus:placeholder:text-white focus:outline-none" 
                         onChange={handleInputChange}
                         onFocus={handleFocus} 

@@ -87,7 +87,7 @@ export default function Completed() {
                         <RenderCompleted activeFilter={activeFilter} activeFEMFilter={activeFEMFilter} activeItemCount={activeItemCount} toggleItemCount={toggleItemCount} />
                     </div>
 
-                    <div className={`mt-12 w-full transition-opacity duration-500 ease-in-out ${searchBarActive ? 'opacity-100' : 'opacity-0'} ${contentVisible ? 'hidden' : 'flex'} flex-wrap justify-around gap-4`}>
+                    <div className={`mt-12 relative w-full transition-opacity duration-500 ease-in-out ${searchBarActive ? 'opacity-100' : 'opacity-0'} ${contentVisible ? 'hidden' : 'flex'} flex-wrap justify-around gap-4`}>
                         <SearchBoxResults searchBarQuery={searchBarQuery} />
                     </div>
 
