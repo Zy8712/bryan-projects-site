@@ -39,7 +39,7 @@ const ProjectFilters = React.memo(({ activeFilter, toggleFilter }) => {
         { iconClass: "las la-laptop-code", filterText: "Frontend Mentor Projects" },
         { iconClass: "las la-user", filterText: "Personal Projects" },
         { iconClass: "las la-meteor", filterText: "Recent Projects" },
-        { iconClass: "las la-file-code", filterText: "HTML, CSS, SASS/SCSS ONLY" },
+        { iconClass: "las la-file-code", filterText: "HTML, CSS, SASS Excl." },
         { iconClass: "lab la-js-square", filterText: "Vanilla JS" },
         { iconClass: "lab la-react", filterText: "React" },
         { iconClass: "las la-wind", filterText: "Tailwind CSS" },
@@ -71,7 +71,7 @@ const ProjectFilters = React.memo(({ activeFilter, toggleFilter }) => {
     };
 
     return (
-        <div className="mt-0 custom-md:mt-10 w-40 custom-md:w-full flex flex-col items-center relative">
+        <div className="w-40 custom-md:w-full flex flex-col items-center relative">
             <div className="my-1 hidden custom-md:flex justify-center flex-wrap">
                 {renderFilterButtons(filterOptions.slice(0, 3), 0)}
             </div>

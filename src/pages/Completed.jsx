@@ -1,31 +1,56 @@
-import { useState } from "react";
+import React, { useState, useEffect } from 'react';
 
 import ProjectFilters from "../components/completed-page-components/ProjectFilters";
 import ProjectFEMFilters from "../components/completed-page-components/ProjectFEMFilters";
 import RenderCompleted from "../components/completed-page-components/RenderCompleted";
 
+import ProjectsSearchBar from "../components/completed-page-components/all-project-search-filter/ProjectsSearchBar";
+import SearchBoxResults from "../components/completed-page-components/all-project-search-filter/SearchBoxResults";
+
 export default function Completed() {
 
     const [activeFilter, setActiveFilter] = useState(0);
     const toggleFilter = (num) => {
-        if (num != activeFilter) {
+        if (num !== activeFilter) {
             setActiveFilter(num);
         }
     }
 
     const [activeFEMFilter, setActiveFEMFilter] = useState(0);
     const toggleFEMFilter = (num) => {
-        if (num != activeFEMFilter) {
+        if (num !== activeFEMFilter) {
             setActiveFEMFilter(num);
         }
     }
 
     const [activeItemCount, setActiveItemCount] = useState(0);
     const toggleItemCount = (num) => {
-        if (num != activeItemCount) {
+        if (num !== activeItemCount) {
             setActiveItemCount(num);
         }
     }
+
+    const [searchBarActive, setSearchBarActive] = useState(false);
+    const [searchBarQuery, setSearchQuery] = useState("");
+
+    const [contentVisible, setContentVisible] = useState(true);
+    useEffect(() => {
+        if (searchBarActive) {
+            const timer = setTimeout(() => {
+                setContentVisible(false);
+            }, 1000); // Wait for 3 seconds before hiding content
+            return () => clearTimeout(timer); // Clear timeout on component unmount or state change
+        } else {
+            // If search bar is inactive, wait for 1 second before showing content
+            const timer = setTimeout(() => {
+                setContentVisible(true);
+            }, 1000); // Wait for 1 second before showing content
+
+            // Clear timeout on component unmount or when search query changes
+            return () => clearTimeout(timer);
+        }
+    }, [searchBarActive]);
+
 
     return (
         <>
@@ -36,7 +61,12 @@ export default function Completed() {
                         Completed
                     </h1>
 
-                    <div className={`mt-10 custom-md:mt-0 w-[340px] custom-md:w-full flex flex-row custom-md:flex-col ${activeFilter === 0 ? 'justify-between custom-md:justify-normal' : 'justify-center'} items-center`}>
+                    <ProjectsSearchBar
+                        toggleSearchBarActive={setSearchBarActive}
+                        setSearchQuery={setSearchQuery}
+                    />
+
+                    <div className={`mt-5 w-[340px] custom-md:w-full ${contentVisible ? 'flex' : 'hidden'} flex-row custom-md:flex-col transition-opacity duration-500 ease-in-out ${searchBarActive ? 'opacity-0' : 'opacity-100'} ${activeFilter === 0 ? 'justify-between custom-md:justify-normal' : 'justify-center'} items-center`}>
                         <ProjectFilters
                             activeFilter={activeFilter}
                             toggleFilter={toggleFilter}
@@ -49,12 +79,16 @@ export default function Completed() {
                         />
                     </div>
 
-                    <div className="mt-10 w-full flex justify-center text-center text-white font-theme-rubik uppercase font-semibold text-2xl">
+                    <div className={`mt-6 w-full transition-opacity duration-500 ease-in-out ${searchBarActive ? 'opacity-0' : 'opacity-100'} ${contentVisible ? 'flex' : 'hidden'} justify-center text-center text-white font-theme-rubik uppercase font-semibold text-2xl`}>
                         <p>{activeItemCount} Results for Selected Filter</p>
                     </div>
 
-                    <div className="mt-10 w-full flex flex-wrap justify-around gap-4 text-center text-white font-theme-oxanium">
+                    <div className={`mt-8 w-full transition-opacity duration-500 ease-in-out ${searchBarActive ? 'opacity-0' : 'opacity-100'} ${contentVisible ? 'flex' : 'hidden'} flex-wrap justify-around gap-4 text-center text-white font-theme-oxanium`}>
                         <RenderCompleted activeFilter={activeFilter} activeFEMFilter={activeFEMFilter} activeItemCount={activeItemCount} toggleItemCount={toggleItemCount} />
+                    </div>
+
+                    <div className={`mt-12 w-full transition-opacity duration-500 ease-in-out ${searchBarActive ? 'opacity-100' : 'opacity-0'} ${contentVisible ? 'hidden' : 'flex'} flex-wrap justify-around gap-4`}>
+                        <SearchBoxResults searchBarQuery={searchBarQuery} />
                     </div>
 
                 </div>
