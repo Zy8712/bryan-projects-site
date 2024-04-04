@@ -9,6 +9,7 @@ import Upcoming from "./pages/Upcoming";
 import Footer from './components/Footer';
 
 import "./App.css"
+import JumpToTopButton from './components/JumpToTopButton';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/completed" component={Completed} />
         <Route path="/in-progress" component={In_Progress} />
         <Route path="/upcoming" component={Upcoming} />
+        <JumpToTopButton />
         <Footer />
       </Router>
     </>

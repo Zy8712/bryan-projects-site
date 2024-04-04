@@ -38,16 +38,10 @@ export default function Completed() {
         if (searchBarActive) {
             const timer = setTimeout(() => {
                 setContentVisible(false);
-            }, 1000); // Wait for 3 seconds before hiding content
+            }, 1000); // Wait for 1 second before hiding content
             return () => clearTimeout(timer); // Clear timeout on component unmount or state change
         } else {
-            // If search bar is inactive, wait for 1 second before showing content
-            const timer = setTimeout(() => {
-                setContentVisible(true);
-            }, 1000); // Wait for 1 second before showing content
-
-            // Clear timeout on component unmount or when search query changes
-            return () => clearTimeout(timer);
+            setContentVisible(true);
         }
     }, [searchBarActive]);
 
