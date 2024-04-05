@@ -91,7 +91,7 @@ export default function ProjectFEMFilter({ activeFilter, activeFEMFilter, toggle
 
             {/** Mobile Filter */}
             <div className={`relative w-40 h-auto font-theme-barlow ${activeFilter === 0 ? 'flex' : 'hidden'}`}>
-                <div ref={dropdownRef} className={`custom-md:hidden absolute z-50 -bottom-[245px] left-0 w-40 h-[240px] bg-white shadow-md overflow-hidden rounded-lg ${dropdownOpen ? 'flex flex-col' : 'hidden'}`}>
+                <div ref={dropdownRef} className={`custom-md:hidden absolute z-50 top-full left-0 w-40 h-[240px] bg-white shadow-md overflow-hidden rounded-lg ${dropdownOpen ? 'flex flex-col' : 'hidden'}`}>
                     <button
                         aria-label={`Featured FEM Projects Filter Option`}
                         onClick={() => toggleFEMFilter(0)}
@@ -110,7 +110,7 @@ export default function ProjectFEMFilter({ activeFilter, activeFEMFilter, toggle
                             key={filter.level}
                             aria-label={`${filter.text} FEM Project Filter Option`}
                             onClick={() => toggleFEMFilter(filter.level)}
-                            className={`my-0 w-full h-10 flex items-center ${filter.buttonBackgroundColour} font-semibold overflow-hidden ${activeFEMFilter === filter.level ? 'border-white border-2 border-solid' : 'opacity-50 hover:opacity-100'}`}
+                            className={`my-0 w-full h-10 flex items-center ${filter.buttonBackgroundColour} font-semibold overflow-hidden ${activeFEMFilter === filter.level ? 'border-white border-2 border-solid' : 'opacity-30 hover:opacity-70'}`}
                         >
                             <span className={`px-4 text-white text-base`}>
                                 {filter.level}

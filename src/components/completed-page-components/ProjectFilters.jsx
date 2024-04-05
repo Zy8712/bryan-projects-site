@@ -78,7 +78,7 @@ const ProjectFilters = React.memo(({ activeFilter, toggleFilter }) => {
             <div className="my-1 hidden custom-md:flex justify-center flex-wrap">
                 {renderFilterButtons(filterOptions.slice(3), 3)}
             </div>
-            <div ref={dropdownRef} className={`custom-md:hidden absolute z-50 -bottom-[365px] left-0 w-64 h-[360px] bg-white shadow-md overflow-hidden rounded-lg ${dropdownOpen ? 'block' : 'hidden'}`}>
+            <div ref={dropdownRef} className={`custom-md:hidden absolute z-50 top-full left-0 w-64 h-[360px] bg-white shadow-md overflow-hidden rounded-lg ${dropdownOpen ? 'block' : 'hidden'}`}>
                 {filterOptions.map((filter, index) => (
                     <button
                         key={index}
