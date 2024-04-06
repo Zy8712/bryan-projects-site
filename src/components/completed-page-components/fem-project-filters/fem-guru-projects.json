@@ -12,6 +12,7 @@
             "css_TF": true,
             "javascript_TF": true,
             "sass_TF": false,
+            "astro_TF": false,
             "react_TF": true,
             "tailwindcss_TF": true,
             "bootstrap_TF": false,

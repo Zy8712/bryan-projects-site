@@ -2,6 +2,7 @@ import HTML_Icon from '../../assets/language-icons/html5-svgrepo-com.svg';
 import CSS_Icon from '../../assets/language-icons/css3-svgrepo-com.svg';
 import JavaScript_Icon from '../../assets/language-icons/javascript-svgrepo-com.svg';
 import SASS_Icon from '../../assets/language-icons/scss2-svgrepo-com.svg';
+import Astro_Icon from '../../assets/language-icons/Astro.svg'
 import React_Icon from '../../assets/language-icons/react-1-logo-svgrepo-com.svg';
 import Tailwind_Icon from '../../assets/language-icons/tailwind-svgrepo-com.svg';
 import Bootstrap_Icon from '../../assets/language-icons/bootstrap-fill-svgrepo-com.svg';
@@ -26,6 +27,7 @@ function ProjectPrimaryIcons(props) {
         { iconImage: CSS_Icon, alt: "css3_icon", title: "CSS3", trueFalse: "css_TF" },
         { iconImage: JavaScript_Icon, alt: "javascript_icon", title: "Javascript", trueFalse: "javascript_TF" },
         { iconImage: SASS_Icon, alt: "sass_icon", title: "SASS/SCSS", trueFalse: "sass_TF" },
+        { iconImage: Astro_Icon, alt: "astro_icon", title: "Astro", trueFalse: "astro_TF"},
         { iconImage: React_Icon, alt: "react_icon", title: "React", trueFalse: "react_TF" },
         { iconImage: Tailwind_Icon, alt: "tailwind_icon", title: "Tailwind CSS", trueFalse: "tailwindcss_TF" },
         { iconImage: Bootstrap_Icon, alt: "bootstrap_icon", title: "Bootstrap", trueFalse: "bootstrap_TF" },
