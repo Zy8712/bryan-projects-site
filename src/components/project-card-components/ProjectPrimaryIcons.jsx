@@ -25,7 +25,7 @@ function ProjectPrimaryIcons(props) {
     const techIcons = [
         { iconImage: HTML_Icon, alt: "html5_icon", title: "HTML5", trueFalse: "html_TF" },
         { iconImage: CSS_Icon, alt: "css3_icon", title: "CSS3", trueFalse: "css_TF" },
-        { iconImage: JavaScript_Icon, alt: "javascript_icon", title: "Javascript", trueFalse: "javascript_TF" },
+        { iconImage: JavaScript_Icon, alt: "javascript_icon", title: "JavaScript", trueFalse: "javascript_TF" },
         { iconImage: SASS_Icon, alt: "sass_icon", title: "SASS/SCSS", trueFalse: "sass_TF" },
         { iconImage: Astro_Icon, alt: "astro_icon", title: "Astro", trueFalse: "astro_TF"},
         { iconImage: React_Icon, alt: "react_icon", title: "React", trueFalse: "react_TF" },

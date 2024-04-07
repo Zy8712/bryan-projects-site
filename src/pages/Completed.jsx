@@ -40,8 +40,6 @@ export default function Completed() {
                 setContentVisible(false);
             }, 1000); // Wait for 1 second before hiding content
             return () => clearTimeout(timer); // Clear timeout on component unmount or state change
-        } else {
-            setContentVisible(true);
         }
     }, [searchBarActive]);
 
@@ -56,8 +54,11 @@ export default function Completed() {
                     </h1>
 
                     <ProjectsSearchBar
+                        searchBarActive={searchBarActive}
                         toggleSearchBarActive={setSearchBarActive}
+                        toggleContentVisibility={setContentVisible}
                         setSearchQuery={setSearchQuery}
+                        searchBarQuery={searchBarQuery}
                     />
 
                     <div className={`mt-5 w-[340px] custom-md:w-full ${contentVisible ? 'flex' : 'hidden'} flex-row custom-md:flex-col transition-opacity duration-500 ease-in-out ${searchBarActive ? 'opacity-0' : 'opacity-100'} ${activeFilter === 0 ? 'justify-between custom-md:justify-normal' : 'justify-center'} items-center`}>
@@ -82,6 +83,9 @@ export default function Completed() {
                     </div>
 
                     <div className={`mt-12 relative w-full transition-opacity duration-500 ease-in-out ${searchBarActive ? 'opacity-100' : 'opacity-0'} ${contentVisible ? 'hidden' : 'flex'} flex-wrap justify-around gap-4`}>
+                        <p className={`text-white font-theme-rubik font-semibold text-2xl text-center ${searchBarQuery == '' ? 'block' : 'hidden' }`}>
+                            Search Mode Active. <br />Start typing to search or close using the exit button.
+                        </p>
                         <SearchBoxResults searchBarQuery={searchBarQuery} />
                     </div>
 

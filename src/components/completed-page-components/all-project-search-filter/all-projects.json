@@ -63,7 +63,7 @@
         },
         "links": {
             "github_link": "https://github.com/Zy8712/astro-frontend-projects/blob/main/src/pages/qr-code-component-astro-v1.astro",
-            "website_preview_link": "https://astro-frontend-projects.vercel.app/3-column-preview-card-component-astro-v1",
+            "website_preview_link": "https://astro-frontend-projects.vercel.app/qr-code-component-astro-v1",
             "challenge_link": "https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H"
         }
     },
