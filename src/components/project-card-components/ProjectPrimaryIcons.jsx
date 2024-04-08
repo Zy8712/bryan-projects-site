@@ -13,6 +13,7 @@ import NextJS_Icon from '../../assets/language-icons/nextjs-fill-svgrepo-com.svg
 import Typescript_Icon from '../../assets/language-icons/typescript-icon-svgrepo-com.svg';
 import Redux_Icon from '../../assets/language-icons/redux-svgrepo-com.svg';
 import PostgreSql_Icon from '../../assets/language-icons/postgresql-svgrepo-com.svg';
+import Vue_Icon from '../../assets/language-icons/vue-svgrepo-com.svg';
 import Figma_Icon from '../../assets/other-icons/figma-svgrepo-com.svg';
 
 function ProjectPrimaryIcons(props) {
@@ -38,6 +39,7 @@ function ProjectPrimaryIcons(props) {
         { iconImage: Typescript_Icon, alt: "typescript_icon", title: "Typescript", trueFalse: "typescript_TF" },
         { iconImage: Redux_Icon, alt: "redux_icon", title: "Redux", trueFalse: "redux_TF" },
         { iconImage: PostgreSql_Icon, alt: "postgresql_icon", title: "PostgreSql", trueFalse: "postgresql_TF" },
+        { iconImage: Vue_Icon, alt: "vue_icon", title: "Vue", trueFalse: "vue_TF" },
         { iconImage: Figma_Icon, alt: "figma_icon", title: "Figma", trueFalse: "figma_TF" },
     ];
 
