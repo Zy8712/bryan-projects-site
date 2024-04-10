@@ -6,6 +6,7 @@ import RenderCompleted from "../components/completed-page-components/RenderCompl
 
 import ProjectsSearchBar from "../components/completed-page-components/all-project-search-filter/ProjectsSearchBar";
 import SearchBoxResults from "../components/completed-page-components/all-project-search-filter/SearchBoxResults";
+import SearchOrFilterToggle from '../components/completed-page-components/SearchOrFilterToggle';
 
 export default function Completed() {
 
@@ -34,15 +35,26 @@ export default function Completed() {
     const [searchBarQuery, setSearchQuery] = useState("");
 
     const [contentVisible, setContentVisible] = useState(true);
-    useEffect(() => {
+
+    function toggleSearchBarActive() {
+        // if search bar is currently true and is being switched to false
         if (searchBarActive) {
+            setContentVisible(true);
             const timer = setTimeout(() => {
-                setContentVisible(false);
-            }, 1000); // Wait for 1 second before hiding content
+                setSearchBarActive(false);
+            }, 400); // Wait for 1 second before hiding content
             return () => clearTimeout(timer); // Clear timeout on component unmount or state change
         }
-    }, [searchBarActive]);
 
+        // if search bar is currently false and is being switched to true
+        else {
+            setContentVisible(false);
+            const timer = setTimeout(() => {
+                setSearchBarActive(true);
+            }, 400); // Wait for 1 second before hiding content
+            return () => clearTimeout(timer); // Clear timeout on component unmount or state change
+        }
+    }
 
     return (
         <>
@@ -53,10 +65,15 @@ export default function Completed() {
                         Completed
                     </h1>
 
-                    <ProjectsSearchBar
+
+                    <SearchOrFilterToggle
+                        toggleSearchBarActive={toggleSearchBarActive}
                         searchBarActive={searchBarActive}
-                        toggleSearchBarActive={setSearchBarActive}
-                        toggleContentVisibility={setContentVisible}
+                    />
+
+                    <ProjectsSearchBar
+                        contentVisible={contentVisible}
+                        searchBarActive={searchBarActive}
                         setSearchQuery={setSearchQuery}
                         searchBarQuery={searchBarQuery}
                     />
@@ -83,7 +100,7 @@ export default function Completed() {
                     </div>
 
                     <div className={`mt-12 relative w-full transition-opacity duration-500 ease-in-out ${searchBarActive ? 'opacity-100' : 'opacity-0'} ${contentVisible ? 'hidden' : 'flex'} flex-wrap justify-around gap-4`}>
-                        <p className={`text-white font-theme-rubik font-semibold text-2xl text-center ${searchBarQuery == '' ? 'block' : 'hidden' }`}>
+                        <p className={`text-white font-theme-rubik font-semibold text-2xl text-center ${searchBarQuery == '' ? 'block' : 'hidden'}`}>
                             Search Mode Active. <br />Start typing to search or close using the exit button.
                         </p>
                         <SearchBoxResults searchBarQuery={searchBarQuery} />
