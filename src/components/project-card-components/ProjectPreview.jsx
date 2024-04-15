@@ -18,7 +18,7 @@ export default function ProjectPreview(props) {
             <img
                 src={props.preview_image}
                 alt="qr_code_preview"
-                className="w-full rounded-2xl duration-300 transform scale-100 group-hover:scale-108 transition-transform"
+                className="w-full duration-300 transform scale-100 group-hover:scale-108 transition-transform"
                 onLoad={handleImageLoad}
             />
         </>

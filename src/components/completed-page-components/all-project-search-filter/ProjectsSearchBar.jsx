@@ -14,7 +14,7 @@ export default function ProjectsSearchBar({ contentVisible, searchBarActive, set
 
     return (
         <>
-            <div className={`mt-8 w-full max-w-[550px] h-14 border-white border-2 border-solid rounded-full transition-opacity duration-500 ease-in-out ${contentVisible ? 'hidden' : 'flex'} justify-center ${searchBarActive ? 'opacity-100' : 'opacity-0'}`}>
+            <div className={`mt-5 w-full max-w-[550px] h-14 border-white border-2 border-solid rounded-full transition-opacity duration-500 ease-in-out ${searchBarActive ? 'flex' : 'hidden'} justify-center ${contentVisible ? 'opacity-0' : 'opacity-100'}`}>
                 <div className="relative w-full h-full">
                     <img src={SearchIcon} className="absolute left-5 top-[50%] -translate-y-[50%] w-12" />
                     <input

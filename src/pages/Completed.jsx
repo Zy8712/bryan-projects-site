@@ -42,16 +42,16 @@ export default function Completed() {
             setContentVisible(true);
             const timer = setTimeout(() => {
                 setSearchBarActive(false);
-            }, 400); // Wait for 1 second before hiding content
+            }, 800); // Wait for 1 second before hiding content
             return () => clearTimeout(timer); // Clear timeout on component unmount or state change
         }
 
         // if search bar is currently false and is being switched to true
         else {
-            setContentVisible(false);
+            setSearchBarActive(true);
             const timer = setTimeout(() => {
-                setSearchBarActive(true);
-            }, 400); // Wait for 1 second before hiding content
+                setContentVisible(false);
+            }, 800); // Wait for 1 second before hiding content
             return () => clearTimeout(timer); // Clear timeout on component unmount or state change
         }
     }
@@ -65,17 +65,9 @@ export default function Completed() {
                         Completed
                     </h1>
 
-
                     <SearchOrFilterToggle
                         toggleSearchBarActive={toggleSearchBarActive}
                         searchBarActive={searchBarActive}
-                    />
-
-                    <ProjectsSearchBar
-                        contentVisible={contentVisible}
-                        searchBarActive={searchBarActive}
-                        setSearchQuery={setSearchQuery}
-                        searchBarQuery={searchBarQuery}
                     />
 
                     <div className={`mt-5 w-[340px] custom-md:w-full ${contentVisible ? 'flex' : 'hidden'} flex-row custom-md:flex-col transition-opacity duration-500 ease-in-out ${searchBarActive ? 'opacity-0' : 'opacity-100'} ${activeFilter === 0 ? 'justify-between custom-md:justify-normal' : 'justify-center'} items-center`}>
@@ -99,9 +91,17 @@ export default function Completed() {
                         <RenderCompleted activeFilter={activeFilter} activeFEMFilter={activeFEMFilter} activeItemCount={activeItemCount} toggleItemCount={toggleItemCount} />
                     </div>
 
-                    <div className={`mt-12 relative w-full transition-opacity duration-500 ease-in-out ${searchBarActive ? 'opacity-100' : 'opacity-0'} ${contentVisible ? 'hidden' : 'flex'} flex-wrap justify-around gap-4`}>
+
+                    <ProjectsSearchBar
+                        contentVisible={contentVisible}
+                        searchBarActive={searchBarActive}
+                        setSearchQuery={setSearchQuery}
+                        searchBarQuery={searchBarQuery}
+                    />
+
+                    <div className={`mt-5 relative w-full transition-opacity duration-500 ease-in-out ${contentVisible ? 'opacity-0' : 'opacity-100'} ${searchBarActive ? 'flex' : 'hidden'} flex-wrap justify-around gap-4`}>
                         <p className={`text-white font-theme-rubik font-semibold text-2xl text-center ${searchBarQuery == '' ? 'block' : 'hidden'}`}>
-                            Search Mode Active. <br />Start typing to search or close using the exit button.
+                            Search Mode Active. Start typing to search.
                         </p>
                         <SearchBoxResults searchBarQuery={searchBarQuery} />
                     </div>

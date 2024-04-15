@@ -73,7 +73,7 @@ export default function ProjectFEMFilter({ activeFilter, activeFEMFilter, toggle
 
     return (
         <>
-            <div className={`mt-6 w-[780px] font-theme-barlow ${activeFilter === 0 ? 'hidden custom-md:flex' : 'hidden'} flex-wrap justify-center`}>
+            <div className={`mt-5 w-[780px] font-theme-barlow ${activeFilter === 0 ? 'hidden custom-md:flex' : 'hidden'} flex-wrap justify-center`}>
                 <button
                     aria-label={`Featured FEM Projects Filter Option`}
                     onClick={() => toggleFEMFilter(0)}
