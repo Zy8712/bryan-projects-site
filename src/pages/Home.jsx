@@ -1,6 +1,8 @@
 import { Link } from 'wouter';
 import Dino_Icon from "../assets/icons/difficulty-svgrepo-com.svg";
 import SocialIcons from '../components/navbar-components/SocialIconsReduced';
+import ExploreCertsLink from '../components/ExploreCertsLink';
+import ExploreProfileSite from '../components/ExploreProfileSiteLink';
 
 export default function Home() {
     return (
@@ -10,7 +12,7 @@ export default function Home() {
                     <div className="w-96 h-96 block custom-sm:hidden">
                         <img src={Dino_Icon} alt='' className='w-96 h-96' />
                     </div>
-                    
+
                     <h1 className="w-full mt-0 custom-sm:mt-10 text-[40px] custom-sm:text-5xl sm:text-6xl custom-md:text-[80px] lg:text-8xl font-bold custom-sm:font-semibold leading-[48px] custom-sm:leading-[56px] sm:leading-[72px] custom-md:leading-[100px] lg:leading-[120px]">
                         Explore Bryan's <span className="text-blue-400">Completed</span> and <span className="text-blue-400">Upcoming Projects</span>
                     </h1>
@@ -34,6 +36,15 @@ export default function Home() {
                     <div className="absolute z-50 bottom-6 xl:hidden">
                         <SocialIcons />
                     </div>
+
+                    <div className="">
+
+                    </div>
+
+                    <ExploreCertsLink />
+
+                    <ExploreProfileSite />
+
                 </div>
             </div>
         </>
