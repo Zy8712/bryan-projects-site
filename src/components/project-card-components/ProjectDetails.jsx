@@ -1,5 +1,6 @@
 import Info_Icon from '../../assets/info-svgrepo-com.svg';
 import FrontendMentor from '../../assets/frontend-mentor-logo-transparent.png';
+import ICodeThis from '../../assets/icodethis-logo.jpg';
 
 export default function ProjectDetails(props) {
     return (
@@ -18,11 +19,12 @@ export default function ProjectDetails(props) {
                     {props.children}
                 </div>
 
-                <div className={`w-[30px] ${props.frontend_mentor_project ? 'flex' : 'hidden'} flex-col absolute top-4 right-[2px] custom-sm:right-2 
+                <div className={`w-[30px] ${props.source != 0 ? 'flex' : 'hidden'} flex-col absolute top-4 right-[2px] custom-sm:right-2 
                 bg-white border-2 border-solid border-transparent rounded-full hover:bg-nav-gradient-1`}>
                     <a href={props.links.challenge_link} target="_blank">
                         <img src={Info_Icon} alt="info_icon" className="mb-1" />
-                        <img src={FrontendMentor} alt="frontendmentor_icon" />
+                        <img src={FrontendMentor} alt="frontendmentor_icon" className={`${props.source == 1 ? 'inline' : 'hidden'}`} />
+                        <img src={ICodeThis} alt="icodethis_icon" className={`${props.source == 2 ? 'inline' : 'hidden'} rounded-full`} />
                     </a>
                 </div>
             </div >

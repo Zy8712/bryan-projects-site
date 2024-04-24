@@ -4,7 +4,7 @@
         "date": "April 7th, 2023",
         "project_status": "Completed",
         "trial": 5,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 1,
         "preview_image": "/project-previews/fem-newbie-previews/3columnpreviewcardcomp-desktop-preview.jpg",
         "technologies": {
@@ -38,7 +38,7 @@
         "date": "April 7th, 2023",
         "project_status": "Completed",
         "trial": 6,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 1,
         "preview_image": "/project-previews/fem-newbie-previews/qrcodecomp-desktop-preview.jpg",
         "technologies": {

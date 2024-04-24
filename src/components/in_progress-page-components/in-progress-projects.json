@@ -4,7 +4,7 @@
         "date": "",
         "project_status": "In Queue",
         "trial": 1,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 4,
         "preview_image": "/project-previews/fem-advanced-previews/archstudiomultipagewebsite-desktop-preview.jpg",
         "technologies": {
@@ -38,7 +38,7 @@
         "date": "March 17th, 2024",
         "project_status": "Last Updated",
         "trial": 1,
-        "frontend_mentor_project": false,
+        "source": 0,
         "fem_difficulty": 0,
         "preview_image": "/project-previews/personal-project-previews/hydraview-desktop-preview.jpg",
         "technologies": {
@@ -72,7 +72,7 @@
         "date": "March 14th, 2024",
         "project_status": "Last Updated",
         "trial": 1,
-        "frontend_mentor_project": false,
+        "source": 0,
         "fem_difficulty": 0,
         "preview_image": "",
         "technologies": {
@@ -106,7 +106,7 @@
         "date": "March 14th, 2024",
         "project_status": "Last Updated",
         "trial": 1,
-        "frontend_mentor_project": false,
+        "source": 0,
         "fem_difficulty": 0,
         "preview_image": "",
         "technologies": {
@@ -140,7 +140,7 @@
         "date": "March 4th, 2024",
         "project_status": "Last Updated",
         "trial": 1,
-        "frontend_mentor_project": false,
+        "source": 0,
         "fem_difficulty": 0,
         "preview_image": "/project-previews/personal-project-previews/stonks-desktop-preview.jpg",
         "technologies": {

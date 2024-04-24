@@ -4,7 +4,7 @@
         "date": "April 8th, 2023",
         "project_status": "Completed",
         "trial": 1,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 1,
         "preview_image": "/project-previews/fem-newbie-previews/recipepage-desktop-preview.jpg",
         "technologies": {
@@ -38,7 +38,7 @@
         "date": "April 7th, 2023",
         "project_status": "Completed",
         "trial": 1,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 1,
         "preview_image": "/project-previews/fem-newbie-previews/sociallinksprofile-desktop-preview.jpg",
         "technologies": {
@@ -72,7 +72,7 @@
         "date": "December 27th, 2023",
         "project_status": "Completed",
         "trial": 1,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 1,
         "preview_image": "/project-previews/fem-newbie-previews/blogpreviewcard-desktop-preview.jpg",
         "technologies": {
@@ -106,7 +106,7 @@
         "date": "October 9th, 2023",
         "project_status": "Completed",
         "trial": 1,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 1,
         "preview_image": "/project-previews/fem-newbie-previews/podrequestaccesslandingpage-desktop-preview.jpg",
         "technologies": {
@@ -140,7 +140,7 @@
         "date": "September 14th, 2023",
         "project_status": "Completed",
         "trial": 1,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 2,
         "preview_image": "/project-previews/fem-junior-previews/clipboardlandingpage-desktop-preview.jpg",
         "technologies": {
@@ -174,7 +174,7 @@
         "date": "August 26th, 2023",
         "project_status": "Completed",
         "trial": 1,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 2,
         "preview_image": "/project-previews/fem-junior-previews/huddlelandingpagewithalternatingfeatureblocks-desktop-preview.jpg",
         "technologies": {
@@ -208,7 +208,7 @@
         "date": "July 7th, 2023",
         "project_status": "Completed",
         "trial": 1,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 2,
         "preview_image": "/project-previews/fem-junior-previews/fylodatastoragecomp-desktop-preview.jpg",
         "technologies": {
@@ -242,7 +242,7 @@
         "date": "July 3rd, 2023",
         "project_status": "Completed",
         "trial": 1,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 2,
         "preview_image": "/project-previews/fem-junior-previews/testimonialsgridsection-desktop-preview.jpg",
         "technologies": {
@@ -276,7 +276,7 @@
         "date": "July 31st, 2023",
         "project_status": "Completed",
         "trial": 2,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 1,
         "preview_image": "/project-previews/fem-newbie-previews/qrcodecomp-desktop-preview.jpg",
         "technologies": {
@@ -310,7 +310,7 @@
         "date": "July 17th, 2023",
         "project_status": "Completed",
         "trial": 1,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 1,
         "preview_image": "/project-previews/fem-newbie-previews/singlepricegridcomp-desktop-preview.jpg",
         "technologies": {
@@ -344,7 +344,7 @@
         "date": "July 16th, 2023",
         "project_status": "Completed",
         "trial": 1,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 1,
         "preview_image": "/project-previews/fem-newbie-previews/fourcardfeaturesection-desktop-preview.jpg",
         "technologies": {
@@ -378,7 +378,7 @@
         "date": "July 9th, 2023",
         "project_status": "Completed",
         "trial": 1,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 1,
         "preview_image": "/project-previews/fem-newbie-previews/socialproofsection-desktop-preview.jpg",
         "technologies": {
@@ -412,7 +412,7 @@
         "date": "June 26th, 2023",
         "project_status": "Completed",
         "trial": 1,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 1,
         "preview_image": "/project-previews/fem-newbie-previews/faqaccordioncard-desktop-preview.jpg",
         "technologies": {
@@ -446,7 +446,7 @@
         "date": "June 16th, 2023",
         "project_status": "Completed",
         "trial": 1,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 1,
         "preview_image": "/project-previews/fem-newbie-previews/statspreviewcardcomp-desktop-preview.jpg",
         "technologies": {
@@ -480,7 +480,7 @@
         "date": "June 14th, 2023",
         "project_status": "Completed",
         "trial": 1,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 1,
         "preview_image": "/project-previews/fem-newbie-previews/nftpreviewcardcomp-desktop-preview.jpg",
         "technologies": {
@@ -514,7 +514,7 @@
         "date": "June 13th, 2023",
         "project_status": "Completed",
         "trial": 1,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 1,
         "preview_image": "/project-previews/fem-newbie-previews/productpreviewcardcomp-desktop-preview.jpg",
         "technologies": {
@@ -548,7 +548,7 @@
         "date": "June 12th, 2023",
         "project_status": "Completed",
         "trial": 1,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 1,
         "preview_image": "/project-previews/fem-newbie-previews/3columnpreviewcardcomp-desktop-preview.jpg",
         "technologies": {
@@ -582,7 +582,7 @@
         "date": "June 11th, 2023",
         "project_status": "Completed",
         "trial": 1,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 1,
         "preview_image": "/project-previews/fem-newbie-previews/resultssummarycomp-desktop-preview.jpg",
         "technologies": {
@@ -616,7 +616,7 @@
         "date": "June 10th, 2023",
         "project_status": "Completed",
         "trial": 1,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 1,
         "preview_image": "/project-previews/fem-newbie-previews/profilecardcomp-desktop-preview.jpg",
         "technologies": {
@@ -650,7 +650,7 @@
         "date": "June 9th, 2023",
         "project_status": "Completed",
         "trial": 1,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 1,
         "preview_image": "/project-previews/fem-newbie-previews/ordersummarycomp-desktop-preview.jpg",
         "technologies": {
@@ -684,7 +684,7 @@
         "date": "June 5th, 2023",
         "project_status": "Completed",
         "trial": 1,
-        "frontend_mentor_project": true,
+        "source": 1,
         "fem_difficulty": 1,
         "preview_image": "/project-previews/fem-newbie-previews/qrcodecomp-desktop-preview.jpg",
         "technologies": {
