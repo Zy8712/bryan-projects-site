@@ -1,5 +1,39 @@
 [
     {
+        "name": "Arch Studio Multi Page Website",
+        "date": "April 24th, 2024",
+        "project_status": "Completed",
+        "trial": 1,
+        "source": 1,
+        "fem_difficulty": 4,
+        "preview_image": "/project-previews/fem-advanced-previews/archstudiomultipagewebsite-desktop-preview.jpg",
+        "technologies": {
+            "html_TF": true,
+            "css_TF": false,
+            "javascript_TF": true,
+            "sass_TF": false,
+            "astro_TF": false,
+            "react_TF": true,
+            "tailwindcss_TF": true,
+            "bootstrap_TF": false,
+            "json_TF": true,
+            "api_TF": false,
+            "redux_TF": false,
+            "wouter_TF": true,
+            "nextjs_TF": false,
+            "angular_TF": false,
+            "vue_TF": false,
+            "figma_TF": true,
+            "postgesql_TF": false,
+            "typescript_TF": false
+        },
+        "links": {
+            "github_link": "https://github.com/Zy8712/arch-studio-website",
+            "website_preview_link": "https://arch-studio-website-green.vercel.app/",
+            "challenge_link": "https://www.frontendmentor.io/challenges/arch-studio-multipage-website-wNIbOFYR6"
+        }
+    },
+    {
         "name": "Recipe Page",
         "date": "April 8th, 2023",
         "project_status": "Completed",

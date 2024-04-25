@@ -1,6 +1,7 @@
 import Info_Icon from '../../assets/info-svgrepo-com.svg';
 import FrontendMentor from '../../assets/frontend-mentor-logo-transparent.png';
 import ICodeThis from '../../assets/icodethis-logo.jpg';
+import Codewellcc from '../../assets/codewellcc-logo.jpg';
 
 export default function ProjectDetails(props) {
     return (
@@ -25,6 +26,7 @@ export default function ProjectDetails(props) {
                         <img src={Info_Icon} alt="info_icon" className="mb-1" />
                         <img src={FrontendMentor} alt="frontendmentor_icon" className={`${props.source == 1 ? 'inline' : 'hidden'}`} />
                         <img src={ICodeThis} alt="icodethis_icon" className={`${props.source == 2 ? 'inline' : 'hidden'} rounded-full`} />
+                        <img src={Codewellcc} alt="icodethis_icon" className={`${props.source == 3 ? 'inline' : 'hidden'} border-[0.3px] border-gray-400 border-solid rounded-full`} />
                     </a>
                 </div>
             </div >
