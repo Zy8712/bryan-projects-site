@@ -3,6 +3,7 @@ import FrontendMentor from '../../assets/frontend-mentor-logo-transparent.png';
 import ICodeThis from '../../assets/icodethis-logo.jpg';
 import Codewellcc from '../../assets/codewellcc-logo.jpg';
 import FrontendPro from '../../assets/frontendpro-logo.png';
+import YouTube from '../../assets/youtube-svgrepo-com.svg';
 
 export default function ProjectDetails(props) {
     return (
@@ -29,6 +30,7 @@ export default function ProjectDetails(props) {
                         <img src={ICodeThis} alt="icodethis_icon" className={`${props.source == 2 ? 'inline' : 'hidden'} rounded-full`} />
                         <img src={Codewellcc} alt="codewellcc_icon" className={`${props.source == 3 ? 'inline' : 'hidden'} border-[0.3px] border-gray-400 border-solid rounded-full`} />
                         <img src={FrontendPro} alt="frontendpro_icon" className={`${props.source == 4 ? 'inline' : 'hidden'} `}/>
+                        <img src={YouTube} alt="frontendpro_icon" className={`${props.source == 5 ? 'inline' : 'hidden'} `}/>
                     </a>
                 </div>
             </div >
